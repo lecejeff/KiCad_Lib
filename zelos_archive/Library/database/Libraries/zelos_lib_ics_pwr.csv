@@ -1,0 +1,6 @@
+ZPN,Symbol,Footprint,MPN,Manufacturer,Description,Type,Input Voltage,Output Voltage,Output Current,Tolerance,Frequency,Temperature Coefficient,Min Operating Temperature,Max Operating Temperature,Package,Mounting Type,Pin Count
+ZPN-0000023-5,Zelos_NonStandard:TPS62130,Zelos:QFN50P300X300X100_HS_5VBE-17N,TPS62130,Texas Instruments,"IC,BUCK,0.9-6V,3A,1.25-2.5MHz,16-VQFN",Buck,3V-17V,0.9V-6V,3A,,2.5MHz,,-40°C,125°C,16-VQFN,SMT,16
+ZPN-0000026-2,Zelos_NonStandard:SiC46[1-4],Zelos:FP-T18-0594-MFG,SiC462ED-T1-GE3,Vishay,"IC,BUCK,0.8-54V,6A,100k-2MHz,PowerPak MLP55-27",Buck,4.5V-60V,0.8V-54V,6A,,100kHz-2MHz,,-40°C,125°C,PowerPak MLP55-27,SMT,27
+ZPN-0000029-3,Zelos_NonStandard:SiC46[6-9],Zelos:FP-T18-0594-MFG,SiC467ED-T1-GE3,Vishay,"IC,BUCK,0.8-54V,6A,100k-2MHz,PowerPak MLP55-27",Buck,4.5V-60V,0.8V-54V,6A,,100kHz-2MHz,,-40°C,125°C,PowerPak MLP55-27,SMT,27
+ZPN-0000032-5,Zelos_NonStandard:SiC46[6-9],Zelos:PowerPAK MLP55-27L - 8VBE,SiC466ED-T1-GE3,Vishay,"IC,BUCK,0.8-54V,10A,100k-2MHz,PowerPak MLP55-27",Buck,4.5V-60V,0.8V-54V,10A,,100kHz-2MHz,,-40°C,125°C,PowerPak MLP55-27,SMT,27
+ZPN-0000036-2,Zelos_NonStandard:REF20,Zelos:SOT95P275X135-5N,REF2041AIDDCT,Texas Instruments,"IC,VREF,2-CH,2.048V,4.096V,0.05%,SOT-23-5",Voltage Reference,4.116V - 5.5V,2.048V / 4.096V,20mA,0.05%,,8ppm/C,-40°C,125°C,SOT-23-5,SMT,5

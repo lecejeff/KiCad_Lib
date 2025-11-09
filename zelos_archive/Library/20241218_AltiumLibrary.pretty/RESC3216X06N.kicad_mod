@@ -1,0 +1,188 @@
+(footprint "RESC3216X06N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Chip Resistor, 2-Leads, Body 3.20x1.60mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -1.625 0)
+		(layer "F.SilkS")
+		(uuid "fbd35de7-acc0-4760-946b-0ab67938b291")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RESC3216X06N"
+		(at 0 1.625 0)
+		(layer "F.Fab")
+		(uuid "f5447bb7-576a-4f74-a710-b0fd738de78d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e04b727-0bec-476f-97b2-b58804b06988")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4d342c8-0114-4372-80ff-bd4693088532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "673354b2-3d6f-4e98-9418-661555eef4e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.3 -1.15)
+		(end 2.3 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa601f08-3cee-4097-8d13-2633e51781fe")
+	)
+	(fp_line
+		(start -2.3 1.15)
+		(end -2.3 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c547e522-926e-4961-8e73-43a29858109f")
+	)
+	(fp_line
+		(start -2.3 1.15)
+		(end 2.3 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5cf5ac09-1a7b-4aa5-b2d5-03981e5c1847")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33fe1865-c095-41ec-b083-e82b35c9bc1e")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21031962-7294-43e7-9909-9830b5b4eb47")
+	)
+	(fp_line
+		(start 2.3 1.15)
+		(end 2.3 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8761a23-904b-4011-ace8-40757d517f31")
+	)
+	(fp_line
+		(start -1.7 -0.875)
+		(end 1.7 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49ab8b50-9b67-4525-a98a-aeaa8dd14613")
+	)
+	(fp_line
+		(start -1.7 0.875)
+		(end -1.7 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a2631cc-ef70-4405-8a17-989514f0acbd")
+	)
+	(fp_line
+		(start -1.7 0.875)
+		(end 1.7 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cfc0ea03-7ad0-473f-9e0a-48f8382ad96d")
+	)
+	(fp_line
+		(start 1.7 0.875)
+		(end 1.7 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d7b7b71-a28a-4309-bdb2-6f8b3825f2b5")
+	)
+	(pad "1" smd rect
+		(at -1.475 0 90)
+		(size 1.8 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8c9128bc-2175-4d63-8cf5-25fa9f5f1b3a")
+	)
+	(pad "2" smd rect
+		(at 1.475 0 90)
+		(size 1.8 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0e93cdd3-f1c1-4bf4-9337-9401d1fa0e9a")
+	)
+	(model "${ALTIUM_3DMODELS}/RESC3216X06N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

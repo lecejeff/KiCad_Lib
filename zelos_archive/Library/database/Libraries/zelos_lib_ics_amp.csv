@@ -1,0 +1,2 @@
+ZPN,Symbol,Footprint,MPN,Manufacturer,Description,Circuits,Input Type,Output Type,Type,Supply Voltage,Input Offset Voltage,Output Current Per Circuit,Bandwidth,Slew Rate,Min Operating Temperature,Max Operating Temperature,Package,Mouting Type,Pin Count
+ZPN-0000041-3,Zelos_Standard:IC-OpAmp_Quad_Style0,Zelos:SOIC127P600X175-14N,OPA4197IDR,Texas Intruments,"IC,OPAMP,4-CH,4.5-36V,RR,10MHz,100uV,14-SOIC",4,Rail-to-Rail,Rail-to-Rail,RRIO,4.5V - 36V,100µV,65mA,10MHz,20V/us,-40°C,125°C,14-SOIC,SMT,14

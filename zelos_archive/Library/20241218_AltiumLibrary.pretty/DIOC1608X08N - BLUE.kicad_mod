@@ -1,0 +1,258 @@
+(footprint "DIOC1608X08N - BLUE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Blue - Chip Diode, 2-Leads, Body 1.60x0.80mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at -0.1 -1.425 0)
+		(layer "F.SilkS")
+		(uuid "8373272e-9116-4a1f-960c-84e1ff585a03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIOC1608X08N - BLUE"
+		(at -0.1 1.2 0)
+		(layer "F.Fab")
+		(uuid "914e06db-851d-4a8e-9fee-ae313ed89144")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "168a8bee-e176-47bd-b447-d1577893dcf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da44540e-a92d-4fc7-b4c8-3cafc07aa246")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a368fd81-50a4-4c45-9910-ca05139925af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.3 -0.65)
+		(end -0.9 -0.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40d66cb5-d664-4a23-ae50-94b1e3927ba3")
+	)
+	(fp_line
+		(start -1.45 -0.7)
+		(end 1.45 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca4e48ec-958c-4c8e-a51b-8352fedb6011")
+	)
+	(fp_line
+		(start -1.45 0.7)
+		(end -1.45 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b1358a7-f1d9-4ef8-adb9-9f19e92e8de2")
+	)
+	(fp_line
+		(start -1.45 0.7)
+		(end 1.45 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9633282f-3dff-4a08-9848-a3d08ffaa971")
+	)
+	(fp_line
+		(start -0.45 0)
+		(end 0.45 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98c1923f-f2a9-48cd-aff1-226f1e09a303")
+	)
+	(fp_line
+		(start 0 0.45)
+		(end 0 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b07fc060-816a-423e-8b2e-0e835a682a40")
+	)
+	(fp_line
+		(start 1.45 0.7)
+		(end 1.45 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e9ba255-c6b9-435e-98a4-5c09529de83c")
+	)
+	(fp_line
+		(start -0.85 -0.45)
+		(end 0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e667eb76-8560-43a0-8ea8-d54e41a19f6d")
+	)
+	(fp_line
+		(start -0.85 0)
+		(end -0.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f3f2230-4605-4168-b024-6466dcd24cfb")
+	)
+	(fp_line
+		(start -0.85 0)
+		(end -0.4 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc841314-a2ac-4196-be1a-08c2879a6e1f")
+	)
+	(fp_line
+		(start -0.85 0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d09b9ede-7bdd-4ec1-87f6-063c987bd99e")
+	)
+	(fp_line
+		(start -0.85 0.45)
+		(end 0.85 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b258640d-efe5-41b6-8938-4b8d45ac1b3d")
+	)
+	(fp_line
+		(start -0.8 0)
+		(end -0.35 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b6f6bad-8658-44c6-8a12-3924098ae5a2")
+	)
+	(fp_line
+		(start -0.4 -0.45)
+		(end -0.35 -0.39999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c752fca-a3e2-4c10-8bd2-5ae407710682")
+	)
+	(fp_line
+		(start -0.4 -0.45)
+		(end -0.2 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ce54c4c-509e-4ddd-81f5-cb63a0fed1fc")
+	)
+	(fp_line
+		(start -0.35 0.45)
+		(end -0.35 -0.39999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "383771a0-55c7-4f5d-ba93-df11b4055c0a")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end 0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6df83571-824d-424c-9841-361c4d6b06f0")
+	)
+	(pad "A" smd rect
+		(at 0.75 0 90)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "99119f85-fdf1-43e1-b6c4-d64755b23ae8")
+	)
+	(pad "K" smd rect
+		(at -0.75 0 90)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "63782458-18a3-47c6-93e5-b62cf4ebde63")
+	)
+	(model "${ALTIUM_3DMODELS}/User Library-0603 LED_blu.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

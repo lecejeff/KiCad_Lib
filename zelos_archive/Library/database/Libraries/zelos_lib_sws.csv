@@ -1,0 +1,4 @@
+ZPN,Symbol,Footprint,MPN,Manufacturer,Description,Current Rating,Voltage Rating,Circuit,Circuit Count,Function,Actuator Height,Operating Force,Max Operating Temperature,Min Operating Temperature,Mounting Type,Package,Pin Count
+ZPN-0000062-2,Zelos_NonStandard:Switch-204-124ST,Zelos:204-124ST,204-124ST,CTS,"SW,DIP,SPDT,SLIDE,4-CH,24V,8-SMD,9.78MMx22.50MM",50mA,24V,SPDT,4,ON-ON,0.89mm,,85°C,-55°C,SMT,Gull Wing - 9.78mm x 22.5mm,8
+ZPN-0000081-3,Zelos_NonStandard:Switch-SPST_4Circuit,Zelos:219-4MST,219-4MST,CTS,"SW,DIP,SPST,SLIDE,4-CH,20V,8-SMD,8MMx11.63MM",100mA,20V,SPST,4,ON-OFF,0.25mm,,85°C,-55°C,SMT,Gull Wing - 8mm x 11.63mm,8
+ZPN-0000010-2,Zelos_Standard:Switch-Pushbutton_4PIN,Zelos:TS04-66-xx-BK-xxx-SMT,TS04-66-50-BK-260-SMT,CUI,"SW,PUSH,SPST,12V,0.05A,5MM,4-PIN,6MMx6MM",0.05A,12V,SPST,1,OFF-MOM,5mm,260gf,80°C,-30°C,SMT,Gull Wing - 6mm x 6mm,4

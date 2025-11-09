@@ -1,0 +1,7 @@
+ZPN,Symbol,Footprint,Manufacturer Part Number,Manufacturer,Description,Logic Type,Output Type,Elements,Voltage Supply,Output Current,Data Rate,Direction,Min Operating Temperature,Max Operating Temperature,Package,Mounting Type,Pin Count
+ZPN-0000011-5,Zelos_Standard:IC-Buffer_Dual_PushPull,Zelos:TSSOP65P210X110-6N,NL27WZ16DFT2G,onsemi,"IC,LOGIC,BUF,DUAL,P-P,5V,32MA,SOT-363",Buffer,Push-Pull,2,5.5V,32mA,,,-40°C,125°C,"6-TSSOP, SOT-363, SC-88",SMT,6
+ZPN-0000022-3,Zelos_NonStandard:TXB0104PW,Zelos:TSSOP65P640X120-14N,TXB0104PWR,Texas Instruments,"IC,V-SHIFTER,4-CH,BIDIR,100Mbps,14-TSSOP",Voltage Shifter,Tri-State,4,,,100Mbps,Bidirectional,-40°C,85°C,14-TSSOP,SMT,14
+ZPN-0000042-5,Zelos_NonStandard:74LVC164245DGG:11,Zelos:TSSOP50P810X120-48N,74ALVC164245DGG:11,Nexperia,"IC,V-SHIFTER,2x8-CH,BIDIR,48-TSSOP",Voltage Shifter,Tri-State,2 x 8,,,100Mbps,Bidirectional,-40°C,125°C,48-TSSOP,SMT,48
+ZPN-0000187-1,Zelos_NonStandard:TXS0108EPWR,Zelos:TSSOP65P640X120-20N,TXS0108EPWR,Texas Instruments,"IC,V-SHIFTER,8-CH,BIDIR,100Mbps,20-TSSOP",Voltage Shifter,Tri-State,8,,,100Mbps,Bidirectional,-40°C,85°C,20-TSSOP,SMT,20
+ZPN-0000206-1,Zelos_Standard:IC-Buffer_Dual_OpenDrain,Zelos:TSSOP65P210X110-6N,NL27WZ07DFT2G-Q,onsemi,"IC,LOGIC,BUF,DUAL,OD,5V,32MA,SOT-363",Buffer,Open-Drain,2,5.5V,32mA,,,-40°C,125°C,"6-TSSOP, SOT-363, SC-88",SMT,6
+ZPN-0000207-1,Zelos_Standard:IC-Buffer_Dual_PushPull,Zelos:SOT95P275X135-6N,NL27WZ16DBVT1G,onsemi,"IC,LOGIC,BUF,DUAL,P-P,5V,32MA,SOT-23-6",Buffer,Push-Pull,2,5.5V,32mA,,,-40°C,125°C,"SOT-23-6, SC-74, SOT-457",SMT,6

@@ -1,0 +1,72 @@
+(footprint "TP - SMD- 0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "bb3cac4e-f406-4f33-9892-337ee167a3ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TP - SMD- 0.5mm"
+		(at 0 0.95 0)
+		(layer "F.Fab")
+		(uuid "d7450fb9-f1de-4a28-a6b7-d9bc94abd1a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a46b6fe1-b4bf-4390-99aa-fd85cbc87673")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16e2d400-2032-4f4e-ba6a-c2e9574e3b4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38d844cf-69ad-4b08-9103-f935d75b4878")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.076)
+		(thermal_bridge_angle 90)
+		(uuid "415bff09-58ab-465b-9b81-7b56cdfab2e3")
+	)
+)

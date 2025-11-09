@@ -1,0 +1,2 @@
+ZPN,Symbol,Footprint,MPN,Manufacturer,Description,Itrip,Rinitial,Rtrip,Ihold,Voltage Rating,Composition,Max Operating Temperature,Min Operating Temperature,Mounting Type,Package,Pin Count
+ZPN-0000079-3,Zelos_Standard:PTC,Zelos:PTCC320160X100,SMD1206B020TF/24,Yageo,"PTC,24V,200MA,1206",420mA,0.65,2.6,200mA,24V,Polymeric,85°C,-40°C,SMT,1206,2

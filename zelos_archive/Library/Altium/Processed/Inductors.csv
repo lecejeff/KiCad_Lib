@@ -1,0 +1,6 @@
+ZPN,Symbol,Footprint,Manufacturer Part Number,Manufacturer,Description,Inductance,Tolerance,Current Rating,Saturation Current,DCR,Self Resonant Frequency,Core Material,Min Operating Temperature,Max Operating Temperature,Qualifications,Mounting Type,Package,Pin Count
+ZPN-0000021-2,Zelos_Standard:Inductor,Zelos:LSXND4040,LSXND4040TKL2R2MDG,Taiyo Yuden,"IND,2U2,20%,2.2A,0.05OHM,SMD,4MMx4MM",2.2µH,20%,2.2A,3A,50.4m,60MHz,Ferrite,-25°C,125°C,,SMD,4mm x 4mm,2
+ZPN-0000027-2,Zelos_Standard:Inductor,Zelos:SRP1038CC,SRP1038CC-3R3M,Bourns,"IND.3U3,20%,14A,0.012OHM,SMD,11MMx10MM",3.3µH,20%,14A,22A,11.8m,18MHz,Carbonyl Powder,-40°C,125°C,,SMT,11mm x 10mm,2
+ZPN-0000030-2,Zelos_Standard:Inductor,Zelos:IHLP-6767GZ-11,IHLP6767GZER6R8M11,Vishay,"IND.,6U8,20%,22.5A,0.006OHM,SMD,17MMx17MM",6.8µH,20%,22.5A,18.5A,6.15m,10MHz,Composite,-55°C,155°C,,SMT,17.15mm x 17.15mm,2
+ZPN-0000031-2,Zelos_Standard:Inductor,Zelos:IHLP-6767GZ-11,IHLP6767GZER5R6M11,Vishay,"IND,5U6,20%,28A,0.004OHM,SMD,17MMx17MM",5.6µH,20%,28A,21A,4.4m,11.8MHz,Composite,-55°C,125°C,,SMT,17.15mm x 17.15mm,2
+ZPN-0000056-2,Zelos_Standard:Inductor,Zelos:CSBX1265-180M,CSBX1265-180M,Codaca,"IND,18U,20%,2.2A,0.017OHM,SMD,13.8MMx12.8MM",18µH,20%,8.5A,11.2A,17.5m,,Composite,-55°C,150°C,,SMT,13.8mm x 12.8mm,2

@@ -1,0 +1,4 @@
+ZPN,Symbol,Footprint,MPN,Manufacturer,Description,"""Zener Voltage (Vz)""",Tolerance,Power,Type,Leakage Current,"""Forward Voltage (Vf)""",Impedance,Max Operating Temperature,Min Operating Temperature,Mounting Type,Package,Pin Count
+ZPN-0000067-1,Zelos_Standard:Diode-Zener_SOT-23-3,Zelos:SOT95P240X115-3N,BZX84C10LT1G,onsemi,"DIO,ZEN,10V,250MW,5%,SOT23-3",10V,5%,225mW,Zener,200nA,900mV,20,150°C,-65°C,SMT,SOT-23-3,3
+ZPN-0000083-1,Zelos_Standard:Diode-Zener_SOT-23-3,Zelos:SOT95P240X115-3N,BZX84C2V4LT1G,onsemi,"DIO,ZEN,2V4,250MW,8%,SOT23-3",2.4V,8%,250mW,Zener,50µA,900mV,100,150°C,-65°C,SMT,SOT-23-3,3
+ZPN-0000149-1,Zelos_Standard:Diode-Zener_SOT-23-3,Zelos:SOT95P240X115-3N,BZX84C4V7LT3G,onsemi,"DIO,ZEN,4V7,250MW,5%,SOT23-3",4.7V,5%,225mW,Zener,3µA,900mV,80,150°C,-65°C,SMT,SOT-23-3,3

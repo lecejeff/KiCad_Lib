@@ -1,0 +1,177 @@
+(footprint "LSXND4040"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IND, SMD, 2-Leads, Pitch: 2.8mm, Body 4.00x4.00mm, Medium Density\r\n\r\nLSXND4040 - Taiyo Yuden")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(layer "F.SilkS")
+		(uuid "873931b7-e795-4155-95fe-a9f5d592edf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LSXND4040"
+		(at 0 2.75 0)
+		(layer "F.Fab")
+		(uuid "8ab47f77-54a1-452c-a428-7e444c287f3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffc3c092-7b14-4c12-92db-dbb89d10b75b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9accfe69-ac8b-4eb6-bfff-8d7b46120676")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a48fe42-a9b9-4266-89a9-370212ad20c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ed16510-08a1-4b39-96f2-68538869adb7")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8389e6b2-5aa2-4170-8114-2d0bf906d778")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99740b27-1aa7-43e9-b7e3-d309e36d3853")
+	)
+	(fp_line
+		(start -0.475 0)
+		(end 0.475 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b08fef4-f78f-4165-a5c9-0d758c4f82b7")
+	)
+	(fp_line
+		(start 0 0.475)
+		(end 0 -0.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d597114c-efa5-474b-a6c9-42bf9b4c7df7")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3d38c5e-a88c-48e4-8427-e4634c3a1601")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dbe20e43-6760-4f72-8c9e-900e9ed29c40")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7ae971e-260b-4e18-b3f1-5eb954794044")
+	)
+	(fp_line
+		(start -2 2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49a9bbb8-dd6a-47a7-9f76-ba720d3e518f")
+	)
+	(fp_line
+		(start 2 2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1b66f76-511b-4701-bcfa-7a051d399be3")
+	)
+	(pad "1" smd rect
+		(at -1.4 0)
+		(size 1.2 3.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "53d63534-6907-4ccd-885f-5386a2bc49ca")
+	)
+	(pad "2" smd rect
+		(at 1.4 0)
+		(size 1.2 3.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c99d8a9-1ecf-4cc0-8146-111e70bdbb10")
+	)
+)

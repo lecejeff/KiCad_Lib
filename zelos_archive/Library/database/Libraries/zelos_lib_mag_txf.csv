@@ -1,0 +1,3 @@
+ZPN,Symbol,Footprint,MPN,Manufacturer,Description,Type,Imax,Inductance,Turns Ratio,Max Operating Temperature,Min Operating Temperature,Mounting Type,Package,Pin Count
+ZPN-0000076-2,Zelos_NonStandard:TXMR-PT61018PEL,Zelos:PT61018PEL,PT61018PEL,Bourns,"TXFMR,2CH,10/100 ETH,120uH,16 PIN SMD",10/100 ETH,,350uH,1:1,85°C,-40°C,SMD,16 Pin,
+ZPN-0000009-2,Zelos_NonStandard:TXMR-S558-5500-JB,Zelos:S558-5500-JB,S558-5500-JB,Bel Fuse,"TXFMR,4CH,2.5G ETH,100W POE,120uH,24 PIN SMD",2.5G ETH w/ 100W POE,1A,120uH,1CT : 1CT,85°C,-40°C,SMD,24 Pin,

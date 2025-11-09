@@ -1,0 +1,177 @@
+(footprint "CSBX1265-180M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IND, SMD, 2-Leads, Pitch: 10.5mm, Body 13.80x12.80mm, Medium Density\r\n\r\nCSBX1265-180M - Codaca")
+	(property "Reference" "REF**"
+		(at 0 -7.15 0)
+		(layer "F.SilkS")
+		(uuid "f82a72e9-fa61-41da-9ce2-534247a50768")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CSBX1265-180M"
+		(at 0 7.15 0)
+		(layer "F.Fab")
+		(uuid "71cb9da2-3442-4d9e-a7cb-779f3ee1b72f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7eb6330-e1e5-4653-a2f6-0df76299d97b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a5bcd90-62cd-4fa9-9184-52dfe06a5925")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3584f8e3-0151-4295-b9fe-a8209fc8f0dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -7.85 -6.75)
+		(end 7.85 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "301eb451-e7b9-40f9-bb1c-41a72f696a6c")
+	)
+	(fp_line
+		(start -7.85 6.75)
+		(end -7.85 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa21e4aa-30cd-4294-bf09-e7597b840edc")
+	)
+	(fp_line
+		(start -7.85 6.75)
+		(end 7.85 6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fad7343-8fb0-4e80-b05f-67d2b94c3f8f")
+	)
+	(fp_line
+		(start -0.475 0)
+		(end 0.475 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4f21015-2af4-4d12-983d-2aba8bdb3948")
+	)
+	(fp_line
+		(start 0 0.475)
+		(end 0 -0.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3724bbe1-4657-41b6-ad68-38f2b021f621")
+	)
+	(fp_line
+		(start 7.85 6.75)
+		(end 7.85 -6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc58d436-a36e-4ced-aa1a-eb0d1a6d720b")
+	)
+	(fp_line
+		(start -6.9 -6.4)
+		(end 6.9 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44fd11dd-54ee-461c-8ff6-8a1e2c7c422b")
+	)
+	(fp_line
+		(start -6.9 6.4)
+		(end -6.9 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4594dfa3-d217-4901-8cea-5c073a30e619")
+	)
+	(fp_line
+		(start -6.9 6.4)
+		(end 6.9 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd37727a-88e2-44ea-9fbe-5f9d99c6fefd")
+	)
+	(fp_line
+		(start 6.9 6.4)
+		(end 6.9 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85d2b6df-4bb7-431b-8b1c-a1a7cfde8e99")
+	)
+	(pad "1" smd rect
+		(at -5.25 0)
+		(size 4.5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c84a5f2-02a5-40eb-a8fa-8d29dbbd8653")
+	)
+	(pad "2" smd rect
+		(at 5.25 0)
+		(size 4.5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c5babc5-6d66-45c5-ba9d-2cbae1648217")
+	)
+)

@@ -1,0 +1,2 @@
+ZPN,Symbol,Footprint,MPN,Manufacturer,Description,Circuits,Type,Output Type,Input Type,Supply Voltage,Input Offset Voltage,Output Current Per Circuit,Bandwidth,Slew Rate,Min Operating Temperature,Max Operating Temperature,Package,Mounting Type,Pin Count
+PCB-0000047-1,Zelos_Standard:IC-Comparator_Single_PushPull_Style0,SOT95P275X135-5N,NCV2200SN1T1G,onsemi,"IC,COMP,1-CH,0.85V-6V,P-P,R-R,SOT-23-5",1,Comparator,Push-Pull,,0.85V-6V,5mV,65mA,10MHz,20V/us,-40°C,125°C,SOT-23-5,SMT,5

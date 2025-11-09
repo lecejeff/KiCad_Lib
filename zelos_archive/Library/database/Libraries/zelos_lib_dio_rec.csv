@@ -1,0 +1,4 @@
+ZPN,Symbol,Footprint,MPN,Manufacturer,Description,Type,Leakage Current,"""Average Current (Io)""","""Reverse Voltage (Vr)""","""Forward Voltage (Vf)""",Max Operating Temperature,Min Operating Temperature,Mounting Type,Package,Pin Count
+ZPN-0000040-3,Zelos_Standard:Diode-Schottky Clamping,Zelos:SOT95P240X115-3N,BAT721S_R1_00001,Panjit,"DIO,SCHTKY,2-CH,SERIES,40V,200mA,SOT23-3",Schottky,15µA,200mA,30V,550mV,125°C,-50°C,SMT,SOT-23-3,3
+ZPN-0000072-1,Zelos_Standard:Diode-Schottky,Zelos:SODFL360X110-2N,MBR120VLSFT1G,onsemi,"DIO,SCHOT,20V,1A,SOD-123FL",Schottky,600µA,1A,20V,340mV,125°C,-65°C,SMT,SOD-123FL,2
+PCB-0000046-1,Zelos_Standard:Diode-Schottky,Zelos:DIOC1609X08N,CD0603-B0240R,Bourns,"DIO,SCHOT,40V,200MA,0603",Schottky,1µA,200mA,40V,550mV,125°C,-40°C,SMT,603,2

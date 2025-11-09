@@ -1,0 +1,188 @@
+(footprint "CAPC0603X03N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Chip Capacitor, 2-Leads, Body 0.60x0.30mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "8420abbd-3ec6-48f7-a529-367b40ac1c8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPC0603X03N"
+		(at 0 0.95 0)
+		(layer "F.Fab")
+		(uuid "0631401e-9be1-4e16-b4aa-0bdc145867ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6618b08-8312-4972-bb9c-24200d8296b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dcc8b40-9897-46a8-b828-48e60cc5a65a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0843983b-fa25-4868-9409-7ba794fc4672")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.81 -0.46)
+		(end 0.81 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a93b754-a2e9-4e77-bcfe-f516367cba76")
+	)
+	(fp_line
+		(start -0.81 0.46)
+		(end -0.81 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6eeeee1b-6ad1-4cd2-9dc1-f510cdafecfb")
+	)
+	(fp_line
+		(start -0.81 0.46)
+		(end 0.81 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0406fe43-8e40-431a-8854-e5ee5d697d71")
+	)
+	(fp_line
+		(start -0.165 0)
+		(end 0.165 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c2a8f69-a441-4c3f-8e17-1bd407068a2e")
+	)
+	(fp_line
+		(start 0 0.165)
+		(end 0 -0.165)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ec414e3-c2ea-4227-a8f7-a761b702871b")
+	)
+	(fp_line
+		(start 0.81 0.46)
+		(end 0.81 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0950961-686b-484c-8b08-4843c91fbf83")
+	)
+	(fp_line
+		(start -0.315 -0.165)
+		(end 0.315 -0.165)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97cfc929-008c-46db-a624-64094e790d89")
+	)
+	(fp_line
+		(start -0.315 0.165)
+		(end -0.315 -0.165)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5977b91f-5fd3-4f1a-aab9-cb66cb9902a4")
+	)
+	(fp_line
+		(start -0.315 0.165)
+		(end 0.315 0.165)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f1a1f87-45ec-43c9-b8b2-8d10b7ca5ed5")
+	)
+	(fp_line
+		(start 0.315 0.165)
+		(end 0.315 -0.165)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9acc863b-9c82-4c82-b4ab-2619a161fd7b")
+	)
+	(pad "1" smd rect
+		(at -0.33 0 90)
+		(size 0.42 0.46)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5d87af94-f83b-4de9-89de-44c9dc2e8314")
+	)
+	(pad "2" smd rect
+		(at 0.33 0 90)
+		(size 0.42 0.46)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "42f0ae4c-23c6-404b-8924-4ae8baefba25")
+	)
+	(model "${ALTIUM_3DMODELS}/CAPC0603X03N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,84 @@
+(footprint "MH - PTH - OD 10mm - ID 4.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.95 0)
+		(layer "F.SilkS")
+		(uuid "a67d739b-0d41-4986-9aa1-4c639b27331b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MH - PTH - OD 10mm - ID 4.5mm"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(uuid "5f23a4fd-4a7a-4031-9e95-79c49285cdbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad68227b-4f5c-4634-ba65-0d8f5b3f9050")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1eb3004f-6c9c-48d3-8ce3-08254f842919")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89285cf2-44a2-486d-a684-351a94466374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "491434bb-e63f-4f4e-b0c9-ac616540c097")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 10 10)
+		(drill 4.5)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.076)
+		(thermal_bridge_angle 90)
+		(uuid "5c17ecc8-9915-4e70-8757-d2b8e4e2fbbd")
+	)
+)

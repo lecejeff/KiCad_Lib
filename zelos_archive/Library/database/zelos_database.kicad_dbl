@@ -1,0 +1,3297 @@
+{
+    "meta": {
+        "version": 0
+    },
+    "name": "zelos_database",
+    "description": "Database generated from Libraries",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": "DRIVER={SQLite3 ODBC Driver};DATABASE=${CWD}/zelos_database.sqlite3"
+    },
+    "libraries": [
+        {
+            "name": "zelos_lib_cap",
+            "table": "zelos_lib_cap",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Voltage Rating\"",
+                    "name": "\"Voltage Rating\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Capacitor Type\"",
+                    "name": "\"Capacitor Type\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Polarized",
+                    "name": "Polarized",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Temperature Coefficient\"",
+                    "name": "\"Temperature Coefficient\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Min Operating Temperature\"",
+                    "name": "\"Min Operating Temperature\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Max Operating Temperature\"",
+                    "name": "\"Max Operating Temperature\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Qualifications",
+                    "name": "Qualifications",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Mounting Type\"",
+                    "name": "\"Mounting Type\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Pin Count\"",
+                    "name": "\"Pin Count\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "ESR",
+                    "name": "ESR",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Impedance",
+                    "name": "Impedance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Ripple Current",
+                    "name": "Ripple Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Lifetime",
+                    "name": "Lifetime",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_clk",
+            "table": "zelos_lib_clk",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Interface Protocol",
+                    "name": "Interface Protocol",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Frequency",
+                    "name": "Frequency",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Outputs",
+                    "name": "Outputs",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Inputs",
+                    "name": "Inputs",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Type",
+                    "name": "Output Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Internal Oscillator",
+                    "name": "Internal Oscillator",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supply Voltage",
+                    "name": "Supply Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "ESR",
+                    "name": "ESR",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Load Capacitance",
+                    "name": "Load Capacitance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Stability",
+                    "name": "Stability",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Qualifications",
+                    "name": "Qualifications",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_con",
+            "table": "zelos_lib_con",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pins",
+                    "name": "Pins",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Rows",
+                    "name": "Rows",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pitch",
+                    "name": "Pitch",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Plating",
+                    "name": "Plating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Orientation",
+                    "name": "Orientation",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Voltage Rating",
+                    "name": "Voltage Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Current Rating",
+                    "name": "Max Current Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Qualifications",
+                    "name": "Qualifications",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Power Connections Max Current",
+                    "name": "Power Connections Max Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Power Connections Voltage Rating",
+                    "name": "Power Connections Voltage Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Diameter",
+                    "name": "Diameter",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_dio_esd",
+            "table": "zelos_lib_dio_esd",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Directionality",
+                    "name": "Directionality",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Clamping Voltage (Max)\"",
+                    "name": "\"Clamping Voltage (Max)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Breakdown Voltage (Min)\"",
+                    "name": "\"Breakdown Voltage (Min)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Reverse Voltage (Vr)\"",
+                    "name": "\"Reverse Voltage (Vr)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Peak Current",
+                    "name": "Peak Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Power",
+                    "name": "Power",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Leakage Current",
+                    "name": "Leakage Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_dio_led",
+            "table": "zelos_lib_dio_led",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Color",
+                    "name": "Color",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Forward Voltage (Vf)\"",
+                    "name": "\"Forward Voltage (Vf)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Test Current",
+                    "name": "Test Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Millicandela Rating",
+                    "name": "Millicandela Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Viewing Angle",
+                    "name": "Viewing Angle",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Wavelength",
+                    "name": "Wavelength",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_dio_rec",
+            "table": "zelos_lib_dio_rec",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Leakage Current",
+                    "name": "Leakage Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Average Current (Io)\"",
+                    "name": "\"Average Current (Io)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Reverse Voltage (Vr)\"",
+                    "name": "\"Reverse Voltage (Vr)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Forward Voltage (Vf)\"",
+                    "name": "\"Forward Voltage (Vf)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_dio_zen",
+            "table": "zelos_lib_dio_zen",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Zener Voltage (Vz)\"",
+                    "name": "\"Zener Voltage (Vz)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Power",
+                    "name": "Power",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Leakage Current",
+                    "name": "Leakage Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Forward Voltage (Vf)\"",
+                    "name": "\"Forward Voltage (Vf)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Impedance",
+                    "name": "Impedance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_fet",
+            "table": "zelos_lib_fet",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Vdsmax",
+                    "name": "Vdsmax",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Idmax",
+                    "name": "Idmax",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "RDSon",
+                    "name": "RDSon",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Power",
+                    "name": "Power",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "VGSmax",
+                    "name": "VGSmax",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "VGSth",
+                    "name": "VGSth",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Input Capacitance",
+                    "name": "Input Capacitance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Qualifications",
+                    "name": "Qualifications",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_fus",
+            "table": "zelos_lib_fus",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Itrip",
+                    "name": "Itrip",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Rinitial",
+                    "name": "Rinitial",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Rtrip",
+                    "name": "Rtrip",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Ihold",
+                    "name": "Ihold",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Voltage Rating",
+                    "name": "Voltage Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Composition",
+                    "name": "Composition",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_amp",
+            "table": "zelos_lib_ics_amp",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Circuits",
+                    "name": "Circuits",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Input Type",
+                    "name": "Input Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Type",
+                    "name": "Output Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supply Voltage",
+                    "name": "Supply Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Input Offset Voltage",
+                    "name": "Input Offset Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Current Per Circuit",
+                    "name": "Output Current Per Circuit",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Bandwidth",
+                    "name": "Bandwidth",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Slew Rate",
+                    "name": "Slew Rate",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mouting Type",
+                    "name": "Mouting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_cmp",
+            "table": "zelos_lib_ics_cmp",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Circuits",
+                    "name": "Circuits",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Type",
+                    "name": "Output Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Input Type",
+                    "name": "Input Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supply Voltage",
+                    "name": "Supply Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Input Offset Voltage",
+                    "name": "Input Offset Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Current Per Circuit",
+                    "name": "Output Current Per Circuit",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Bandwidth",
+                    "name": "Bandwidth",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Slew Rate",
+                    "name": "Slew Rate",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_cnv",
+            "table": "zelos_lib_ics_cnv",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Converter Type",
+                    "name": "Converter Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Conversion Type",
+                    "name": "Conversion Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Channels",
+                    "name": "Channels",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Resolution",
+                    "name": "Resolution",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Interface Protocol",
+                    "name": "Interface Protocol",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supply Voltage",
+                    "name": "Supply Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Voltage Reference",
+                    "name": "Voltage Reference",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Sampling Rate",
+                    "name": "Sampling Rate",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Propagation Delay",
+                    "name": "Propagation Delay",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_com",
+            "table": "zelos_lib_ics_com",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Media Protocol",
+                    "name": "Media Protocol",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Interface Protocol",
+                    "name": "Interface Protocol",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Channels",
+                    "name": "Channels",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supply Voltage",
+                    "name": "Supply Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_lgc",
+            "table": "zelos_lib_ics_lgc",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Logic Type",
+                    "name": "Logic Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Type",
+                    "name": "Output Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Elements",
+                    "name": "Elements",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Voltage Supply",
+                    "name": "Voltage Supply",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Current",
+                    "name": "Output Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Data Rate",
+                    "name": "Data Rate",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Direction",
+                    "name": "Direction",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_mcu",
+            "table": "zelos_lib_ics_mcu",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Core Processor",
+                    "name": "Core Processor",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Core Size",
+                    "name": "Core Size",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "RAM Size",
+                    "name": "RAM Size",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Speed",
+                    "name": "Speed",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Memory Type",
+                    "name": "Memory Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Memory Size",
+                    "name": "Memory Size",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supply Voltage",
+                    "name": "Supply Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "IO Count",
+                    "name": "IO Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "ADC Count",
+                    "name": "ADC Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "ADC Resolution",
+                    "name": "ADC Resolution",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "DAC Count",
+                    "name": "DAC Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "DAC Resolution",
+                    "name": "DAC Resolution",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Peripherals",
+                    "name": "Peripherals",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_mux",
+            "table": "zelos_lib_ics_mux",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Bandwidth",
+                    "name": "Bandwidth",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Propagation Delay",
+                    "name": "Propagation Delay",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Interface Protocol",
+                    "name": "Interface Protocol",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Channels",
+                    "name": "Channels",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Circuit",
+                    "name": "Circuit",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supply Voltage",
+                    "name": "Supply Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "RDSon",
+                    "name": "RDSon",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Ilim (per Output)\"",
+                    "name": "\"Ilim (per Output)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Input Voltage",
+                    "name": "Input Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Outputs",
+                    "name": "Outputs",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Inputs",
+                    "name": "Inputs",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_pwm",
+            "table": "zelos_lib_ics_pwm",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "",
+            "fields": [
+                {
+                    "column": "FootprintName1",
+                    "name": "FootprintName1",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Input Voltage",
+                    "name": "Input Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Inputs",
+                    "name": "Inputs",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Outputs",
+                    "name": "Outputs",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Ilim (per Output)\"",
+                    "name": "\"Ilim (per Output)\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "POE Power",
+                    "name": "POE Power",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "RDSon",
+                    "name": "RDSon",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_ics_pwr",
+            "table": "zelos_lib_ics_pwr",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Input Voltage",
+                    "name": "Input Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Voltage",
+                    "name": "Output Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Output Current",
+                    "name": "Output Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Frequency",
+                    "name": "Frequency",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Temperature Coefficient",
+                    "name": "Temperature Coefficient",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_mag_fer",
+            "table": "zelos_lib_mag_fer",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "DCR",
+                    "name": "DCR",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Current Rating",
+                    "name": "Current Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "\"Impedance @ Frequency\"",
+                    "name": "\"Impedance @ Frequency\"",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_mag_ind",
+            "table": "zelos_lib_mag_ind",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Inductance",
+                    "name": "Inductance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Current Rating",
+                    "name": "Current Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Saturation Current",
+                    "name": "Saturation Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "DCR",
+                    "name": "DCR",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Self Resonant Frequency",
+                    "name": "Self Resonant Frequency",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Core Material",
+                    "name": "Core Material",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Qualifications",
+                    "name": "Qualifications",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_mag_txf",
+            "table": "zelos_lib_mag_txf",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Imax",
+                    "name": "Imax",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Inductance",
+                    "name": "Inductance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Turns Ratio",
+                    "name": "Turns Ratio",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_res",
+            "table": "zelos_lib_res",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Resistance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Power Rating",
+                    "name": "Power Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Voltage Rating",
+                    "name": "Voltage Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Composition",
+                    "name": "Composition",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Temperature Coefficient",
+                    "name": "Temperature Coefficient",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Tempertature",
+                    "name": "Min Operating Tempertature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Qualifications",
+                    "name": "Qualifications",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Terminations",
+                    "name": "Terminations",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        },
+        {
+            "name": "zelos_lib_sws",
+            "table": "zelos_lib_sws",
+            "key": "ZPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Current Rating",
+                    "name": "Current Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Voltage Rating",
+                    "name": "Voltage Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Circuit",
+                    "name": "Circuit",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Circuit Count",
+                    "name": "Circuit Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Function",
+                    "name": "Function",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Actuator Height",
+                    "name": "Actuator Height",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Operating Force",
+                    "name": "Operating Force",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Max Operating Temperature",
+                    "name": "Max Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Min Operating Temperature",
+                    "name": "Min Operating Temperature",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Mounting Type",
+                    "name": "Mounting Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Pin Count",
+                    "name": "Pin Count",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "footprint_filters": "Footprint Filters",
+                "keywords": "Keywords",
+                "exclude_from_bom": "No BOM",
+                "exclude_from_board": "Schematic Only"
+            }
+        }
+    ]
+}
