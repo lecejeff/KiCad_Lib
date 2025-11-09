@@ -1,4 +1,4 @@
-(footprint "res_0402"
+(footprint "resistor_0402"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "res_0402"
+	(property "Value" "resistor_0402"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -134,7 +134,7 @@
 		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/jeanf/Desktop/git/KiCad-Library/3d model/surface mount/0402 SMD Resistor.step"
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/0402 SMD Resistor.step"
 		(offset
 			(xyz 0.5 0 0)
 		)

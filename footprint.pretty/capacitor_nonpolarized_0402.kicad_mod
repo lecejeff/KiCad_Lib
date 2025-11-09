@@ -1,4 +1,4 @@
-(footprint "cap_0402"
+(footprint "capacitor_nonpolarized_0402"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -134,15 +134,15 @@
 		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/jeanf/Desktop/git/KiCad-Library/3d model/surface mount/0402_capacitor.step"
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/0402_capacitor.step"
 		(offset
-			(xyz 0.5 0.25 0)
+			(xyz 0.5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
