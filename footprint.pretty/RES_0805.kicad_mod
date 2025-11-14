@@ -1,4 +1,4 @@
-(footprint "resistor_0805"
+(footprint "RES_0805"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "resistor_0805"
+	(property "Value" "RES_0805"
 		(at -0.875 1.005 0)
 		(unlocked yes)
 		(layer "F.Fab")

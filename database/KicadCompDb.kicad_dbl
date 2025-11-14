@@ -99,6 +99,130 @@
 					"visible_in_chooser": true,
 					"show_name": true,
 					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}				
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "Capacitors_CER_SMT",
+			"table": "Capacitors_CER_SMT",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Tolerance",
+					"name": "Tolerance",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dielectric",
+					"name": "Dielectric",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Voltage Rating",
+					"name": "Voltage Rating",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
 				}				
 			],
             "properties": {
