@@ -3,12 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Capacitor 1206 NON POL IPC nominal")
+	(descr "CAP SMT 1206 NON POL IPC nominal")
 	(property "Reference" "C**"
-		(at 0.02 -1.55 0)
+		(at 0 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b5d1f7f2-2cb1-451f-bf35-6bbaedf059e0")
+		(uuid "a8bdcc7c-ecb8-4dde-842a-abfb79111f0f")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -17,10 +17,10 @@
 		)
 	)
 	(property "Value" "CAP_NONPOL_1206"
-		(at -0.855 1.005 0)
+		(at 0.15 2.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f394c12e-20da-40a1-92a9-75b68d508841")
+		(uuid "08c62550-f969-43fc-ae35-13b5569af0d0")
 		(effects
 			(font
 				(size 1 1)
@@ -29,11 +29,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -0.855 0.01 0)
+		(at -0.705 0.01 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ae3e72da-05f3-43c6-bab9-3c6fdcc596d6")
+		(uuid "a63da421-9eba-4377-bc7b-97cd639879e6")
 		(effects
 			(font
 				(size 1 1)
@@ -41,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" "Capacitor 1206 NON POL IPC nominal"
-		(at -0.855 0.01 0)
+	(property "Description" "CAP SMT 1206 NON POL IPC nominal"
+		(at -0.705 0.01 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "432c213e-88c8-43a2-9c2b-04fe932ed2c3")
+		(uuid "033f6b14-dbe0-43ab-8794-edada590abd8")
 		(effects
 			(font
 				(size 1 1)
@@ -56,8 +56,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.23 -1.2)
-		(end 2.22 -1.2)
+		(start -2.1 -1.25)
+		(end 2.1 -1.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66,18 +66,18 @@
 		(uuid "67e5ebd6-5d22-4c58-8a2d-c53bb870b202")
 	)
 	(fp_line
-		(start -2.23 1.2)
-		(end -2.23 -1.2)
+		(start -2.1 1.25)
+		(end -2.1 -1.25)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "7cc06284-3e8e-41ea-81ca-41eff17a7640")
 	)
 	(fp_line
-		(start 2.22 -1.2)
-		(end 2.22 1.2)
+		(start 2.1 -1.25)
+		(end 2.1 1.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -86,8 +86,8 @@
 		(uuid "d3f2248a-1477-4863-8605-ae7ab59308dd")
 	)
 	(fp_line
-		(start 2.22 1.2)
-		(end -2.23 1.2)
+		(start 2.1 1.25)
+		(end -2.1 1.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -96,18 +96,18 @@
 		(uuid "28a51320-218d-483a-9c2e-bf47a74dd89f")
 	)
 	(fp_rect
-		(start -2.22 -1.195)
-		(end 2.22 1.195)
+		(start -2.1 -1.25)
+		(end 2.1 1.25)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7fc8ea6b-6956-42cb-bcc3-45db65a18c30")
+		(uuid "1a7d0f25-623b-489d-9462-52fef2b9e6a7")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.855 2.505 0)
+		(at 0.15 3.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "949bd2db-1276-42f5-b252-eb4ae1c896ad")
@@ -119,25 +119,29 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.53 0.005)
+		(at -1.38 0.005)
 		(size 1.1 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
 	)
 	(pad "2" smd roundrect
-		(at 1.52 0.005)
+		(at 1.35 0)
 		(size 1.1 2.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/1206_cap.step"
 		(offset
-			(xyz -0.98 -0.805 1.6)
+			(xyz -0.975 -0.8 1.55)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -3,9 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Capacitor 0402 NON POL IPC nominal")
+	(descr "CAP SMT 0402 NON POL IPC nominal")
 	(property "Reference" "C**"
-		(at -0.095 -0.815 0)
+		(at 0 -0.85 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b5d1f7f2-2cb1-451f-bf35-6bbaedf059e0")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "Capacitor 0402 NON POL IPC nominal"
+	(property "Description" "CAP SMT 0402 NON POL IPC nominal"
 		(at -0.505 -0.005 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,8 +56,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.895 -0.455)
-		(end 0.895 -0.455)
+		(start -0.95 -0.5)
+		(end 0.95 -0.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66,8 +66,8 @@
 		(uuid "67e5ebd6-5d22-4c58-8a2d-c53bb870b202")
 	)
 	(fp_line
-		(start -0.895 0.445)
-		(end -0.895 -0.455)
+		(start -0.95 0.5)
+		(end -0.95 -0.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76,18 +76,8 @@
 		(uuid "7cc06284-3e8e-41ea-81ca-41eff17a7640")
 	)
 	(fp_line
-		(start 0.89 0.445)
-		(end -0.895 0.445)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "28a51320-218d-483a-9c2e-bf47a74dd89f")
-	)
-	(fp_line
-		(start 0.895 -0.455)
-		(end 0.895 0.445)
+		(start 0.95 -0.5)
+		(end 0.95 0.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -95,9 +85,19 @@
 		(layer "F.SilkS")
 		(uuid "d3f2248a-1477-4863-8605-ae7ab59308dd")
 	)
+	(fp_line
+		(start 0.95 0.5)
+		(end -0.95 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28a51320-218d-483a-9c2e-bf47a74dd89f")
+	)
 	(fp_rect
-		(start -0.895 -0.445)
-		(end 0.895 0.445)
+		(start -0.95 -0.495)
+		(end 0.94 0.495)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -123,6 +123,8 @@
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
 	)
@@ -131,6 +133,8 @@
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
 	)

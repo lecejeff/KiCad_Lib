@@ -1,14 +1,14 @@
-(footprint "CAP_NONPOL_0805"
+(footprint "2-SMD_3_2mmx1_5mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "CAP SMT 0805 NON POL IPC nominal")
-	(property "Reference" "C**"
-		(at 0 -1.245 0)
+	(descr "SMT XTAL 2-SMD, No Lead, 3.2mm x 1.5mm")
+	(property "Reference" "Y**"
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b5d1f7f2-2cb1-451f-bf35-6bbaedf059e0")
+		(uuid "f4098500-e0f4-47c5-a4b0-abbc18093c37")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "CAP_NONPOL_0805"
-		(at 0 2.45 0)
+	(property "Value" "2-SMD_3_2mmx1_5mm"
+		(at 0 2.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f394c12e-20da-40a1-92a9-75b68d508841")
+		(uuid "6a6eabd3-c873-4c8e-9259-956777b61c82")
 		(effects
 			(font
 				(size 1 1)
@@ -29,11 +29,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -0.875 0.005 0)
+		(at -2.9 1.525 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ae3e72da-05f3-43c6-bab9-3c6fdcc596d6")
+		(uuid "cba6df2c-0bb0-4f3d-bd58-7986ed11cf3e")
 		(effects
 			(font
 				(size 1 1)
@@ -41,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" "CAP SMT 0805 NON POL IPC nominal"
-		(at -0.875 0.005 0)
+	(property "Description" "SMT XTAL 2-SMD, No Lead, 3.2mm x 1.5mm"
+		(at -2.9 1.525 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "432c213e-88c8-43a2-9c2b-04fe932ed2c3")
+		(uuid "a0345574-9ebe-4144-811a-533f0b06bd3b")
 		(effects
 			(font
 				(size 1 1)
@@ -56,61 +56,61 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.45 -0.9)
-		(end 1.45 -0.9)
+		(start -1.975 -1.125)
+		(end -1.975 1.125)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "67e5ebd6-5d22-4c58-8a2d-c53bb870b202")
+		(uuid "1015e58d-8c3a-430d-a2d4-d70e0fa44ad8")
 	)
 	(fp_line
-		(start -1.45 0.9)
-		(end -1.45 -0.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d93a87bf-f693-4cb4-a3ab-6864cb11f026")
-	)
-	(fp_line
-		(start 1.45 -0.9)
-		(end 1.45 0.9)
+		(start 1.975 -1.125)
+		(end -1.975 -1.125)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d3f2248a-1477-4863-8605-ae7ab59308dd")
+		(uuid "81aeb808-8558-4b50-9f3a-557e2bd8dc1a")
 	)
 	(fp_line
-		(start 1.45 0.9)
-		(end -1.45 0.9)
+		(start 1.975 -1.125)
+		(end 1.975 1.125)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "31c39f3a-795b-46ff-a838-ffeffbb700f3")
+		(uuid "ecdfdd0e-b410-4f5c-8374-12e3ac590f76")
+	)
+	(fp_line
+		(start 1.975 1.125)
+		(end -1.975 1.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ecf35490-7a78-4ebd-890f-7e461f1ce249")
 	)
 	(fp_rect
-		(start -1.45 -0.9)
-		(end 1.45 0.9)
+		(start -1.975 -1.125)
+		(end 1.975 1.125)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "69560879-798a-45e7-98d3-f6185cd7b9b5")
+		(uuid "0546e32b-3a39-42c3-b787-8bf3069e838a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.1 0)
+		(at 0 3.95 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "949bd2db-1276-42f5-b252-eb4ae1c896ad")
+		(uuid "85dd72a3-4a69-4d34-8d4f-bca15190bf87")
 		(effects
 			(font
 				(size 1 1)
@@ -119,27 +119,26 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.875 0.005)
-		(size 0.85 1.5)
+		(at -1.275 0)
+		(size 1.1 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin_ratio -0.05)
-		(thermal_bridge_angle 45)
-		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
+		(uuid "f9df712b-6b67-4c9c-b9d8-b9f15542e2fa")
 	)
 	(pad "2" smd roundrect
-		(at 0.875 0.005)
-		(size 0.85 1.5)
+		(at 1.225 0)
+		(size 1.1 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin_ratio -0.05)
-		(thermal_bridge_angle 45)
-		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
+		(uuid "a714b322-c3aa-4348-a52e-72b58959b10e")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/0805_cap.step"
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/ABS07.STEP"
+		(opacity 0.6000)
 		(offset
 			(xyz 0 0 0)
 		)

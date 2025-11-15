@@ -3,9 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Resistor 0805 IPC nominal")
+	(descr "RES SMT 0805 IPC nominal")
 	(property "Reference" "R**"
-		(at -0.125 -1.245 0)
+		(at 0 -1.245 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b5d1f7f2-2cb1-451f-bf35-6bbaedf059e0")
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "RES_0805"
-		(at -0.875 1.005 0)
+	(property "Value" "RES SMT 0805"
+		(at 0 2.45 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f394c12e-20da-40a1-92a9-75b68d508841")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "Resistor 0805 IPC nominal"
+	(property "Description" "RES SMT 0805 IPC nominal"
 		(at -0.875 0.005 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,8 +56,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.425 -0.845)
-		(end 1.425 -0.845)
+		(start -1.45 -0.9)
+		(end 1.45 -0.9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66,18 +66,18 @@
 		(uuid "67e5ebd6-5d22-4c58-8a2d-c53bb870b202")
 	)
 	(fp_line
-		(start -1.425 0.855)
-		(end -1.425 -0.845)
+		(start -1.45 0.9)
+		(end -1.45 -0.9)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7cc06284-3e8e-41ea-81ca-41eff17a7640")
+		(uuid "d93a87bf-f693-4cb4-a3ab-6864cb11f026")
 	)
 	(fp_line
-		(start 1.425 -0.845)
-		(end 1.425 0.855)
+		(start 1.45 -0.9)
+		(end 1.45 0.9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -86,28 +86,28 @@
 		(uuid "d3f2248a-1477-4863-8605-ae7ab59308dd")
 	)
 	(fp_line
-		(start 1.425 0.855)
-		(end -1.425 0.855)
+		(start 1.45 0.9)
+		(end -1.45 0.9)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "28a51320-218d-483a-9c2e-bf47a74dd89f")
+		(uuid "31c39f3a-795b-46ff-a838-ffeffbb700f3")
 	)
 	(fp_rect
-		(start -1.42 -0.845)
-		(end 1.42 0.845)
+		(start -1.45 -0.9)
+		(end 1.45 0.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7fc8ea6b-6956-42cb-bcc3-45db65a18c30")
+		(uuid "69560879-798a-45e7-98d3-f6185cd7b9b5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.875 2.505 0)
+		(at 0 4.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "949bd2db-1276-42f5-b252-eb4ae1c896ad")
@@ -123,6 +123,8 @@
 		(size 0.85 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
 	)
@@ -131,13 +133,15 @@
 		(size 0.85 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/0805_res.STEP"
 		(offset
-			(xyz 0.1 -0.005 0)
+			(xyz 0.125 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

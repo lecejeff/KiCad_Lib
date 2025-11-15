@@ -14,8 +14,8 @@
 	},
 	"libraries": [
 		{
-			"name": "Resistors_SMT",
-			"table": "Resistors_SMT",
+			"name": "Resistors",
+			"table": "Resistors",
 			"key": "Part ID",
 			"symbols": "Symbols",
 			"footprints": "Footprints",
@@ -37,6 +37,22 @@
 					"inherit_properties": true
 				},
 				{
+					"column": "Power",
+					"name": "Power",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
 					"column": "Temperature Coefficient",
 					"name": "Temperature Coefficient",
 					"visible_on_add": false,
@@ -45,8 +61,24 @@
 					"inherit_properties": true
 				},
 				{
-					"column": "Power",
-					"name": "Power",
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
@@ -79,30 +111,6 @@
 				{
 					"column": "Distributor Part Number",
 					"name": "Distributor Part Number",
-					"visible_on_add": false,
-					"visible_in_chooser": true,
-					"show_name": true,
-					"inherit_properties": true
-				},
-				{
-					"column": "Description",
-					"name": "Description",
-					"visible_on_add": false,
-					"visible_in_chooser": true,
-					"show_name": true,
-					"inherit_properties": true
-				},
-				{
-					"column": "Package",
-					"name": "Package",
-					"visible_on_add": false,
-					"visible_in_chooser": true,
-					"show_name": true,
-					"inherit_properties": true
-				},
-				{
-					"column": "Operating Temperature",
-					"name": "Operating Temperature",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
@@ -122,8 +130,8 @@
             }
 		},
 		{
-			"name": "Capacitors_CER_SMT",
-			"table": "Capacitors_CER_SMT",
+			"name": "Capacitors",
+			"table": "Capacitors",
 			"key": "Part ID",
 			"symbols": "Symbols",
 			"footprints": "Footprints",
@@ -131,6 +139,14 @@
 				{
 					"column": "Value",
 					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
@@ -145,6 +161,14 @@
 					"inherit_properties": true
 				},
 				{
+					"column": "Voltage Rating",
+					"name": "Voltage Rating",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
 					"column": "Dielectric",
 					"name": "Dielectric",
 					"visible_on_add": false,
@@ -153,8 +177,32 @@
 					"inherit_properties": true
 				},
 				{
-					"column": "Voltage Rating",
-					"name": "Voltage Rating",
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
@@ -193,8 +241,68 @@
 					"inherit_properties": true
 				},
 				{
-					"column": "Description",
-					"name": "Description",
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "MOSFET",
+			"table": "MOSFET",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "VDS",
+					"name": "VDS",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "I(drain)",
+					"name": "I(drain)",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "VGS(th)",
+					"name": "VGS(th)",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Power",
+					"name": "Power",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
@@ -217,13 +325,185 @@
 					"inherit_properties": true
 				},
 				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
 					"column": "Datasheet",
 					"name": "Datasheet",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
 					"inherit_properties": true
-				}				
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "Crystals",
+			"table": "Crystals",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Frequency",
+					"name": "Frequency",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Load Capacitance",
+					"name": "Load Capacitance",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Tolerance",
+					"name": "Tolerance",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Stability",
+					"name": "Stability",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}			
 			],
             "properties": {
                 "description": "Description"

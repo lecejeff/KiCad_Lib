@@ -3,9 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Capacitor 0603 NON POL IPC nominal")
+	(descr "CAP SMT 0603 NON POL IPC nominal")
 	(property "Reference" "C**"
-		(at -0.1 -0.995 0)
+		(at 0 -0.995 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b5d1f7f2-2cb1-451f-bf35-6bbaedf059e0")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "CAP_NONPOL_0603"
-		(at -0.8 1.005 0)
+		(at 0.1 1.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f394c12e-20da-40a1-92a9-75b68d508841")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -0.8 0.005 0)
+		(at -0.7 0.005 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,8 +41,8 @@
 			)
 		)
 	)
-	(property "Description" "Capacitor 0603 NON POL IPC nominal"
-		(at -0.8 0.005 0)
+	(property "Description" "CAP SMT 0603 NON POL IPC nominal"
+		(at -0.7 0.005 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,8 +56,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.4 -0.595)
-		(end 1.4 -0.595)
+		(start -1.35 -0.65)
+		(end 1.35 -0.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66,8 +66,8 @@
 		(uuid "67e5ebd6-5d22-4c58-8a2d-c53bb870b202")
 	)
 	(fp_line
-		(start -1.4 0.605)
-		(end -1.4 -0.595)
+		(start -1.35 0.65)
+		(end -1.35 -0.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76,8 +76,8 @@
 		(uuid "7cc06284-3e8e-41ea-81ca-41eff17a7640")
 	)
 	(fp_line
-		(start 1.4 -0.595)
-		(end 1.4 0.605)
+		(start 1.35 -0.65)
+		(end 1.35 0.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -86,8 +86,8 @@
 		(uuid "d3f2248a-1477-4863-8605-ae7ab59308dd")
 	)
 	(fp_line
-		(start 1.4 0.605)
-		(end -1.4 0.605)
+		(start 1.35 0.65)
+		(end -1.35 0.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -96,8 +96,8 @@
 		(uuid "28a51320-218d-483a-9c2e-bf47a74dd89f")
 	)
 	(fp_rect
-		(start -1.395 -0.595)
-		(end 1.395 0.595)
+		(start -1.345 -0.645)
+		(end 1.345 0.645)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107,7 +107,7 @@
 		(uuid "7fc8ea6b-6956-42cb-bcc3-45db65a18c30")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.8 2.505 0)
+		(at -0.7 2.505 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "949bd2db-1276-42f5-b252-eb4ae1c896ad")
@@ -119,31 +119,35 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.8 0.005)
+		(at -0.7 0.005)
 		(size 0.95 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
 	)
 	(pad "2" smd roundrect
-		(at 0.8 0.005)
+		(at 0.7 0.005)
 		(size 0.95 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
 		(thermal_bridge_angle 45)
 		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/resistor 0603.STEP"
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/cap 0603.step"
 		(offset
-			(xyz 0 -0.005 0)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
