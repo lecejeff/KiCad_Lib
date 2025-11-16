@@ -1,0 +1,226 @@
+(footprint "DO-214AC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMA (DO-214AC)")
+	(property "Reference" "D**"
+		(at 0 -1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b5d1f7f2-2cb1-451f-bf35-6bbaedf059e0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMA (DO-214AC)"
+		(at 0 2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f394c12e-20da-40a1-92a9-75b68d508841")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5.925 -0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae3e72da-05f3-43c6-bab9-3c6fdcc596d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMA (DO-214AC)"
+		(at -5.925 -0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "432c213e-88c8-43a2-9c2b-04fe932ed2c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.325 -1.4)
+		(end 2.325 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90c42362-bd65-4c2a-8261-a5dae2bd92df")
+	)
+	(fp_line
+		(start -2.325 -1.05)
+		(end -2.325 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fb73404-a47e-479e-b978-6b4fcafb2a8f")
+	)
+	(fp_line
+		(start -2.325 1.05)
+		(end -2.325 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e6662282-a508-4804-b043-3d52c7d1f7b5")
+	)
+	(fp_line
+		(start -0.775 0)
+		(end -0.525 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c78b5d6-c3ce-4718-8407-523783a58d53")
+	)
+	(fp_line
+		(start -0.525 -0.5)
+		(end -0.525 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "012538c0-7f7c-4b11-9ac4-d5b550611256")
+	)
+	(fp_line
+		(start -0.525 0.5)
+		(end -0.525 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e72d6f5-04b9-4eca-924f-a81ddd62abbb")
+	)
+	(fp_line
+		(start 0.275 0)
+		(end 0.775 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "690d2001-1149-4613-b61f-f13d59f369d8")
+	)
+	(fp_line
+		(start 2.325 -1.05)
+		(end 2.325 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "18e96ea3-84bc-490d-a2f9-8c3514b7afdf")
+	)
+	(fp_line
+		(start 2.325 1.05)
+		(end 2.325 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9eefa53-f347-498f-bd05-2e874c3651be")
+	)
+	(fp_line
+		(start 2.325 1.4)
+		(end -2.325 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd921fa8-152f-4160-b255-e33dc795a557")
+	)
+	(fp_poly
+		(pts
+			(xy 0.475 -0.5) (xy -0.475 0) (xy 0.475 0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9fcca52f-d866-4d9a-8b49-628d6363553a")
+	)
+	(fp_rect
+		(start -3.22 -1.395)
+		(end 3.22 1.395)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7fc8ea6b-6956-42cb-bcc3-45db65a18c30")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "949bd2db-1276-42f5-b252-eb4ae1c896ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.025 0)
+		(size 2.16 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
+	)
+	(pad "2" smd roundrect
+		(at 2.025 0)
+		(size 2.16 1.78)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/DO-214AC.STEP"
+		(opacity 0.6700)
+		(offset
+			(xyz -0.025 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
