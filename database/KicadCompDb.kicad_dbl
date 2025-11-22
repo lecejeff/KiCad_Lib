@@ -1092,6 +1092,838 @@
             "properties": {
                 "description": "Description"
             }
+		},
+		{
+			"name": "Logic",
+			"table": "Logic",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Series",
+					"name": "Series",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Output Type",
+					"name": "Output Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Elements",
+					"name": "Elements",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Output Current",
+					"name": "Output Current",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Supply Voltage",
+					"name": "Supply Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "Interface",
+			"table": "Interface",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Series",
+					"name": "Series",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Input",
+					"name": "Input",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Output",
+					"name": "Output",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Supply Voltage",
+					"name": "Supply Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "Memory",
+			"table": "Memory",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Technology",
+					"name": "Technology",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Size",
+					"name": "Size",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Structure",
+					"name": "Structure",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Interface",
+					"name": "Interface",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Clock Frequency",
+					"name": "Clock Frequency",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Supply Voltage",
+					"name": "Supply Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "PTC Resettable fuse",
+			"table": "PTC Resettable fuse",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Voltage",
+					"name": "Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Hold Current",
+					"name": "Hold Current",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Trip Current",
+					"name": "Trip Current",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Max Current",
+					"name": "Max Current",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Time to Trip",
+					"name": "Time to Trip",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "Digital",
+			"table": "Digital",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Interface",
+					"name": "Interface",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Interface",
+					"name": "Interface",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Supply Voltage",
+					"name": "Supply Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "Regulator",
+			"table": "Regulator",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Loop Control",
+					"name": "Loop Control",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Input Voltage (Min)",
+					"name": "Input Voltage (Min)",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Input Voltage (Max)",
+					"name": "Input Voltage (Max)",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Output Voltage",
+					"name": "Output Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Output Current",
+					"name": "Output Current",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Frequency",
+					"name": "Frequency",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
 		}
 	]
 }

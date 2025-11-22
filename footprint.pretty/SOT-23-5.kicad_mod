@@ -1,14 +1,14 @@
-(footprint "SOT-23-6"
+(footprint "SOT-23-5"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SOT-23-6")
+	(descr "SOT-23-5")
 	(property "Reference" "U**"
-		(at -1.75 0 90)
+		(at -1.8 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f4098500-e0f4-47c5-a4b0-abbc18093c37")
+		(uuid "814312a2-ba1b-4041-9da4-ae9630c94a78")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "SOT-23-6"
+	(property "Value" "SOT-23-5"
 		(at -1.9 3.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6a6eabd3-c873-4c8e-9259-956777b61c82")
+		(uuid "b6cb0b93-2f51-4248-afe2-448eaa9c5f13")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cba6df2c-0bb0-4f3d-bd58-7986ed11cf3e")
+		(uuid "ade86073-6913-4ab4-bb72-8090cedcc6fb")
 		(effects
 			(font
 				(size 1 1)
@@ -41,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" "SOT-23-6"
+	(property "Description" "SOT-23-5"
 		(at -1.9 2.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a0345574-9ebe-4144-811a-533f0b06bd3b")
+		(uuid "0282e95e-b779-4a68-940c-2109a16fd388")
 		(effects
 			(font
 				(size 1 1)
@@ -166,7 +166,7 @@
 		(uuid "b023f682-29fb-4a84-8c3d-44b7cb19a09d")
 	)
 	(pad "5" smd roundrect
-		(at 0 -1.2)
+		(at -0.95 -1.2)
 		(size 0.55 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
@@ -174,26 +174,16 @@
 		(solder_paste_margin_ratio -0.05)
 		(uuid "8e374ae6-c5e3-4d44-81cf-3352e4ef3eee")
 	)
-	(pad "6" smd roundrect
-		(at -0.95 -1.2)
-		(size 0.55 0.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(solder_mask_margin 0.05)
-		(solder_paste_margin_ratio -0.05)
-		(uuid "83181027-0023-42f5-adf4-4a7bcc4a9553")
-	)
 	(embedded_fonts no)
-	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/sot23-6.STEP"
-		(opacity 0.6400)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/SOT23-5.step"
 		(offset
-			(xyz -0.95 -0.95 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
