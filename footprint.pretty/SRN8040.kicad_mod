@@ -1,0 +1,124 @@
+(footprint "SRN8040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SRN8040")
+	(property "Reference" "L**"
+		(at 0 -4.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b5d1f7f2-2cb1-451f-bf35-6bbaedf059e0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SRN8040"
+		(at 0.05 5.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f394c12e-20da-40a1-92a9-75b68d508841")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.305 -0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae3e72da-05f3-43c6-bab9-3c6fdcc596d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SRN8040"
+		(at -3.305 -0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "432c213e-88c8-43a2-9c2b-04fe932ed2c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.4 -4.4)
+		(end 4.4 4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dc257606-5274-43c1-b152-6b2305647ea6")
+	)
+	(fp_rect
+		(start -4.4 -4.4)
+		(end 4.4 4.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f3cffa61-a829-4fce-9fd2-c4bb7fb3485c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "949bd2db-1276-42f5-b252-eb4ae1c896ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.8 0)
+		(size 2.6 8.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
+	)
+	(pad "2" smd roundrect
+		(at 2.8 0)
+		(size 2.6 8.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/Bourns_SRN8040TA_series_H3_7mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
