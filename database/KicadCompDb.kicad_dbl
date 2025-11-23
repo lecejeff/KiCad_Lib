@@ -2080,6 +2080,342 @@
             "properties": {
                 "description": "Description"
             }
+		},
+		{
+			"name": "Oscillator",
+			"table": "Oscillator",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Frequency",
+					"name": "Frequency",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Tolerance",
+					"name": "Tolerance",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Stability",
+					"name": "Stability",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Output Type",
+					"name": "Output Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Supply Voltage",
+					"name": "Supply Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
+		},
+		{
+			"name": "Connector",
+			"table": "Connector",
+			"key": "Part ID",
+			"symbols": "Symbols",
+			"footprints": "Footprints",
+			"fields": [
+				{
+					"column": "Value",
+					"name": "Value",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Type",
+					"name": "Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Gender",
+					"name": "Gender",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Pitch",
+					"name": "Pitch",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Positions",
+					"name": "Positions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Rows",
+					"name": "Rows",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Shrouding",
+					"name": "Shrouding",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Mounting Type",
+					"name": "Mounting Type",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Termination",
+					"name": "Termination",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Contact Length (Mating)",
+					"name": "Contact Length (Mating)",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Contact Length (Total)",
+					"name": "Contact Length (Total)",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Contact Material",
+					"name": "Contact Material",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Contact Finish",
+					"name": "Contact Finish",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Current Rating",
+					"name": "Current Rating",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Voltage Rating",
+					"name": "Voltage Rating",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Operating Temperature",
+					"name": "Operating Temperature",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Description",
+					"name": "Description",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Dimensions",
+					"name": "Dimensions",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer",
+					"name": "Manufacturer",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Manufacturer Part Number",
+					"name": "Manufacturer Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor",
+					"name": "Distributor",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Distributor Part Number",
+					"name": "Distributor Part Number",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Datasheet",
+					"name": "Datasheet",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				}
+			],
+            "properties": {
+                "description": "Description"
+            }
 		}
 	]
 }

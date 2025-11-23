@@ -1,4 +1,4 @@
-(footprint "VQFN-16"
+(footprint "VQFN-16-EP"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "VQFN-16"
+	(property "Value" "VQFN-16-EP"
 		(at -1.4 10.075 0)
 		(unlocked yes)
 		(layer "F.Fab")

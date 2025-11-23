@@ -1,0 +1,142 @@
+(footprint "HEADER_3P_2_54MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HEADER_3P_2_54MM")
+	(property "Reference" "J**"
+		(at 0 -1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8506fd6e-fa2c-4e48-ac95-07289a3f3da5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HEADER_3P_2_54MM"
+		(at -2.54 3.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "743dab65-0c7d-4d70-a053-7186bedef9c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a3315c1-0a3c-4311-882b-7442b01a11e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "HEADER_3P_2_54MM"
+		(at -2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a3c50df-0f6b-478e-ba2e-c6cac582476b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.27 -1.397)
+		(end -1.27 1.397)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1bb65807-a992-43b4-b2ef-8e1eef3f644a")
+	)
+	(fp_rect
+		(start -3.937 -1.397)
+		(end 3.937 1.397)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c925aaa1-9359-441f-96dc-05fd5c4e4f33")
+	)
+	(fp_rect
+		(start -3.937 -1.397)
+		(end 3.937 1.397)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d97445b8-69df-4be6-95b7-2c55f4a81c90")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.54 5.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58c28cac-8bd4-46fa-a1ec-0ded75cbf8eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.8 2.3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "06a0e925-238b-441c-9bbe-8f6ee37f9d6f")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.8 2.3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "f9b5601b-4edf-40a8-9e4d-f0ca2a80a17a")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.8 2.3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(uuid "89d9c161-bf43-4e22-a158-a74895945244")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/header3-100mils.stp"
+		(opacity 0.5100)
+		(offset
+			(xyz 0.01 0 1.27)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
