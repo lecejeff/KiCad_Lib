@@ -8,7 +8,7 @@
 		(at 0 -0.85 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b5d1f7f2-2cb1-451f-bf35-6bbaedf059e0")
+		(uuid "2b8397dd-1791-49db-be58-23946e1e0335")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -20,7 +20,7 @@
 		(at 0 1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f394c12e-20da-40a1-92a9-75b68d508841")
+		(uuid "89806d2e-7284-45c6-9ac4-e7e4f8b2298b")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ae3e72da-05f3-43c6-bab9-3c6fdcc596d6")
+		(uuid "d3f1cd39-5881-42a0-9a89-32be941f342c")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "432c213e-88c8-43a2-9c2b-04fe932ed2c3")
+		(uuid "e5a645d8-d56b-4a69-aa01-6ea88fc1d255")
 		(effects
 			(font
 				(size 1 1)

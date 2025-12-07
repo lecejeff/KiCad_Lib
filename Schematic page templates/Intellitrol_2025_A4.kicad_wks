@@ -1,0 +1,274 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "9.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 109.989 33.5022)
+		(end 2 2.0002)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 109 3.9002)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(line
+		(name "")
+		(start 110 5.5002)
+		(end 2 5.5002)
+	)
+	(line
+		(name "")
+		(start 110 9.0002)
+		(end 2 9.0002)
+	)
+	(tbtext "Current Revision: ${REVISION}"
+		(name "")
+		(pos 29.5 3.9002)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(tbtext "Sheet Size: ${PAPER}"
+		(name "")
+		(pos 29.5 13.9002)
+		(font
+			(size 1.27 1.27) bold italic)
+		(comment "Paper format name")
+	)
+	(tbtext "Sheet: ${#}   of   ${##}"
+		(name "")
+		(pos 29.5 10.6002)
+		(font
+			(size 1.27 1.27) bold italic)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 110 12.5)
+		(end 25.989 12.5)
+	)
+	(tbtext "Project: ${TITLE}"
+		(name "")
+		(pos 109 10.7)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(tbtext "Sheet Title: ${FILENAME}"
+		(name "")
+		(pos 109 7.3)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(line
+		(name "")
+		(start 29.989 33.5022)
+		(end 29.989 2.0002)
+	)
+	(line
+		(name "")
+		(start 69.989 9.0022)
+		(end 69.989 5.5022)
+	)
+	(tbtext "Status: ${COMMENT8}"
+		(name "")
+		(pos 29.489 7.0022)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(line
+		(name "")
+		(start 274.9892 27.0022)
+		(end 226.9892 27.0022)
+	)
+	(line
+		(name "")
+		(start 69.989 5.5022)
+		(end 69.989 2.0022)
+	)
+	(line
+		(name "")
+		(start 274.9892 23.0022)
+		(end 226.9892 23.0022)
+	)
+	(tbtext "Revision"
+		(name "")
+		(pos 268.9892 25.0022)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(line
+		(name "")
+		(start 274.9892 20.0022)
+		(end 226.9892 20.0022)
+	)
+	(line
+		(name "")
+		(start 274.9892 17.0022)
+		(end 226.9892 17.0022)
+	)
+	(line
+		(name "")
+		(start 274.9892 14.0022)
+		(end 226.9892 14.0022)
+	)
+	(line
+		(name "")
+		(start 274.9892 11.0022)
+		(end 226.9892 11.0022)
+	)
+	(line
+		(name "")
+		(start 274.9892 8.0022)
+		(end 226.9892 8.0022)
+	)
+	(line
+		(name "")
+		(start 274.9892 5.0022)
+		(end 226.9892 5.0022)
+	)
+	(line
+		(name "")
+		(start 226.9892 27.0022)
+		(end 226.9892 2.0022)
+	)
+	(line
+		(name "")
+		(start 251.9892 2.0022)
+		(end 251.9892 27.0022)
+	)
+	(tbtext "Change Order"
+		(name "")
+		(pos 246.9892 25.0022)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(line
+		(name "")
+		(start 25.989 12.5022)
+		(end 1.989 12.5022)
+	)
+	(line
+		(name "")
+		(start 29.989 16.0022)
+		(end 1.989 16.0022)
+	)
+	(tbtext "BOM: ${FILENAME}"
+		(name "")
+		(pos 69.489 3.5022)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(tbtext "Designed by:	${COMMENT1}\n\n				${COMMENT2}\n\n				${COMMENT3}\n\n				${COMMENT4}\n\n				${COMMENT5}"
+		(name "")
+		(pos 108.989 23.0022)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(line
+		(name "")
+		(start 69.989 12.5022)
+		(end 69.989 9.0002)
+	)
+	(tbtext "Drawn by: ${COMMENT6}"
+		(name "")
+		(pos 69.489 10.5022)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(tbtext "Approved by: ${COMMENT7}"
+		(name "")
+		(pos 69.489 7.002)
+		(font
+			(size 1.27 1.27) bold italic)
+	)
+	(tbtext "Logo"
+		(name "")
+		(pos 17.989 22.5022)
+		(rotate 45)
+	)
+)

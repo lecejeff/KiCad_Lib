@@ -1,0 +1,257 @@
+(footprint "SJ-352X-SMT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN JACK STEREO 3.5MM SMD R/A")
+	(property "Reference" "J**"
+		(at -0.1 10.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a8347aad-564e-4b43-b971-2d9d01648c3e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SJ-352X-SMT"
+		(at 0.6 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0ceb442-a0ac-4a62-8c80-8c6f4cfda992")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 3.7 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5782458f-81e2-4d61-bf3f-75190b86bec5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN JACK STEREO 3.5MM SMD R/A"
+		(at 3.7 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e90c11ec-b8ec-4ee4-b6f4-60731a9a58fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -7.2)
+		(end -2.3 -7.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d530515e-b64a-4680-8727-ad36c7e3ed5e")
+	)
+	(fp_line
+		(start -3.1 1.7)
+		(end -3.1 -7.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c532439a-5da9-4f9f-819d-7c4fd49f238d")
+	)
+	(fp_line
+		(start -3.1 7.5)
+		(end -3.1 4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8cdd46bb-8c5e-493a-ae51-9327b80c55c7")
+	)
+	(fp_line
+		(start -2.6 7.5)
+		(end -2.6 9.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "22705026-972d-43c2-bad5-cb19dd831106")
+	)
+	(fp_line
+		(start 0.8 -7.2)
+		(end 3.1 -7.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1926ff4-5388-401c-b36e-c740c2efff60")
+	)
+	(fp_line
+		(start 2.6 7.5)
+		(end 2.6 9.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d788a101-10bb-4759-b5b1-214f7ed1ad4b")
+	)
+	(fp_line
+		(start 2.6 9.9)
+		(end -2.6 9.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "954aa150-ad36-4c11-a51e-1154ed41c48c")
+	)
+	(fp_line
+		(start 3.1 -6)
+		(end 3.1 -7.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb3db011-6813-4ce6-9544-a72b89c10450")
+	)
+	(fp_line
+		(start 3.1 3.7)
+		(end 3.1 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd576ce6-062c-4d63-9be2-750ac4c3082b")
+	)
+	(fp_line
+		(start 3.1 7.5)
+		(end -3.1 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3affae38-a274-4ae4-9a84-ebcf4563ad3d")
+	)
+	(fp_line
+		(start 3.1 7.5)
+		(end 3.1 6.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5959b598-5577-4f4f-b122-a7137814c047")
+	)
+	(fp_rect
+		(start -5.3 -9.9)
+		(end 5.3 9.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8785492a-ed96-4b63-8199-e338274f0eb9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.4 12.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea0eca17-65d5-4f67-b52e-56421fc48f8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -3.1)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "717821ae-f612-4c3d-ab18-d2b6cde6b235")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 3.9)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "9f64a128-1d39-4868-9f07-08ea7b7085d6")
+	)
+	(pad "1" smd roundrect
+		(at 3.7 5)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "fe18b2e0-f529-4084-b3cf-566c693fd2bf")
+	)
+	(pad "2" smd roundrect
+		(at 3.7 -4.4)
+		(size 2.8 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "be8663ec-9c43-4ab7-8d42-57778b7fae34")
+	)
+	(pad "3" smd roundrect
+		(at -3.7 3)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "d0401411-f8b8-437a-9757-f3fb23442978")
+	)
+	(pad "4" smd roundrect
+		(at -0.75 -8.4)
+		(size 2.8 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "a6a980ec-6195-4eb4-b903-37ff601327f3")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/SJ-3523-SMT.step"
+		(offset
+			(xyz 0 -7.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

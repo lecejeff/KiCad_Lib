@@ -1,0 +1,159 @@
+(footprint "CMM-3729AT-42308-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MIC MEMS ANALOG OMNI -42DB")
+	(property "Reference" "X**"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21f2775f-7333-4290-af23-c7c74994717f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CMM-3729AT-42308-TR"
+		(at 0 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "faf079a8-fe23-459e-86fb-706a6cdbff2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.85 -1.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "384360f9-c183-45e2-929e-3e63beddb14a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MIC MEMS ANALOG OMNI -42DB"
+		(at 0.85 -1.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb0933e1-f26e-4058-ad1d-2314dbd997da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.475 -1.88)
+		(end 1.475 1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4887e0c4-13b5-4635-9171-b31d68f00963")
+	)
+	(fp_circle
+		(center 0 -0.59)
+		(end 0.25 -0.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "efecd169-660a-429c-ace7-4934547f2369")
+	)
+	(fp_circle
+		(center 1.75 -1.25)
+		(end 1.85 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b4ec9c98-1964-4109-b860-80088a4930cb")
+	)
+	(fp_rect
+		(start -1.475 -1.875)
+		(end 1.475 1.875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "63766543-2756-44e7-b941-a49aa93a0b02")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63166b50-10d9-4eb6-a564-3530f9b1fe36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0.85 -1.23)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "719bdfc4-d3b5-49eb-be1a-3d948a74d584")
+	)
+	(pad "2" smd circle
+		(at 0.85 1.23)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "b9565904-293d-47a9-8cb6-91f7980b076e")
+	)
+	(pad "3" smd circle
+		(at -0.85 1.23)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "ba68cbcf-2a75-4ec6-b072-7f6356144dfc")
+	)
+	(pad "4" smd circle
+		(at -0.85 -1.23)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "4670d4ad-f565-4065-9120-df947b676692")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/Same_Sky_CMM-3729AT-42308-TR.step"
+		(opacity 0.4800)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
