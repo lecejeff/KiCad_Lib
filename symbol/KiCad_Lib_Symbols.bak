@@ -17663,6 +17663,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Power" ""
@@ -17679,7 +17680,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" ""
@@ -24961,42 +24961,6 @@
 				)
 			)
 			(pin input line
-				(at -2.794 -21.59 0)
-				(length 2.54)
-				(name "DACP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.794 -24.13 0)
-				(length 2.54)
-				(name "DACN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -2.54 -1.27 0)
 				(length 2.54)
 				(name "DA0P"
@@ -25133,6 +25097,42 @@
 					)
 				)
 				(number "J7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -21.59 0)
+				(length 2.54)
+				(name "DACP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -24.13 0)
+				(length 2.54)
+				(name "DACN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25639,7 +25639,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 -3.556 180)
+				(at 27.94 -3.81 180)
 				(length 2.54)
 				(name "A_Y0N"
 					(effects
