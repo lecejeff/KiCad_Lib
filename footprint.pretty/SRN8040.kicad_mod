@@ -109,6 +109,38 @@
 		(thermal_bridge_angle 45)
 		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Margin")
+		(uuid "5f23fbcc-c223-4510-8178-883e13c5563f")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 1.4 -4.1) (xy 1.4 4.1) (xy -1.4 4.1) (xy -1.4 -4.1)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/Bourns_SRN8040TA_series_H3_7mm.step"
 		(offset
