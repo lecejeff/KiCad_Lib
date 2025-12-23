@@ -218,8 +218,8 @@
 		(uuid "5128cb57-bf7e-4cea-b2f9-e782138da87e")
 	)
 	(fp_circle
-		(center 86.65 -37.8)
-		(end 88.4 -37.8)
+		(center 86.95 -37.8)
+		(end 88.7 -37.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -229,8 +229,8 @@
 		(uuid "8bb50022-83dc-4765-89fe-910350078b96")
 	)
 	(fp_circle
-		(center 86.65 37.82)
-		(end 88.4 37.82)
+		(center 86.95 37.82)
+		(end 88.7 37.82)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -239,37 +239,81 @@
 		(layer "Margin")
 		(uuid "99981c14-a31d-439b-8da2-86eba246893c")
 	)
-	(pad "1" thru_hole circle
-		(at -86.95 -37.82)
-		(size 6 6)
-		(drill 4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "45fe81df-c710-4192-a30b-c01df9630773")
+	(dimension
+		(type orthogonal)
+		(layer "F.SilkS")
+		(uuid "7d4fc5e2-380a-441d-9d4c-3590b2853f23")
+		(pts
+			(xy -86.95 -37.82) (xy -90.8 -41.8)
+		)
+		(height -5.48)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3.85"
+			(at -88.875 -44.4 0)
+			(layer "F.SilkS")
+			(uuid "7d4fc5e2-380a-441d-9d4c-3590b2853f23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
 	)
-	(pad "2" thru_hole circle
-		(at -86.95 37.82)
-		(size 6 6)
-		(drill 4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "30e06f0f-8c1e-4fbb-9e4b-b7fbd7d68848")
-	)
-	(pad "3" thru_hole circle
-		(at 86.65 -37.8)
-		(size 6 6)
-		(drill 4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "35e20458-d9e5-43e5-ae21-b86d32488ac3")
-	)
-	(pad "4" thru_hole circle
-		(at 86.65 37.82)
-		(size 6 6)
-		(drill 4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e0af312f-8bd0-4d13-9b17-069dd1a1ca5f")
+	(dimension
+		(type orthogonal)
+		(layer "F.SilkS")
+		(uuid "90aa1436-8308-4b3d-b33c-3e5f62e09819")
+		(pts
+			(xy 86.95 -37.8) (xy 90.8 -41.8)
+		)
+		(height -4.15)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3.85"
+			(at 88.875 -43.05 0)
+			(layer "F.SilkS")
+			(uuid "90aa1436-8308-4b3d-b33c-3e5f62e09819")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/3D_RVT70HSLFWCA0_Rev.1.1.stp"

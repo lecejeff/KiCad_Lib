@@ -146,7 +146,6 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/header5-100mils.stp"
-		(opacity 0.5200)
 		(offset
 			(xyz 0 0 1.27)
 		)

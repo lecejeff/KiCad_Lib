@@ -138,7 +138,6 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/ABS07.STEP"
-		(opacity 0.6000)
 		(offset
 			(xyz 0 0 0)
 		)
