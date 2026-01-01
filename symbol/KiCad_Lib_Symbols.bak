@@ -10178,7 +10178,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -18175,7 +18175,33 @@
 		(symbol "RES_GENERIC_0603_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.508 0.508) (xy 1.27 -0.508) (xy 2.032 0.508) (xy 2.794 -0.508) (xy 3.302 0)
+					(xy 0.254 0) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy 0.762 0.508) (xy 1.524 -0.508) (xy 2.286 0.508) (xy 3.048 -0.508) (xy 3.556 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0) (xy 3.556 0)
 				)
 				(stroke
 					(width 0)
@@ -18205,7 +18231,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.572 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name ""
 					(effects
@@ -18361,7 +18387,33 @@
 		(symbol "RES_GENERIC_0805_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.508 0.508) (xy 1.27 -0.508) (xy 2.032 0.508) (xy 2.794 -0.508) (xy 3.302 0)
+					(xy 0.254 0) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy 0.762 0.508) (xy 1.524 -0.508) (xy 2.286 0.508) (xy 3.048 -0.508) (xy 3.556 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0) (xy 3.556 0)
 				)
 				(stroke
 					(width 0)
@@ -18391,7 +18443,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.572 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name ""
 					(effects
@@ -18547,7 +18599,33 @@
 		(symbol "RES_GENERIC_1206_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.508 0.508) (xy 1.27 -0.508) (xy 2.032 0.508) (xy 2.794 -0.508) (xy 3.302 0)
+					(xy 0.254 0) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy 0.762 0.508) (xy 1.524 -0.508) (xy 2.286 0.508) (xy 3.048 -0.508) (xy 3.556 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0) (xy 3.556 0)
 				)
 				(stroke
 					(width 0)
@@ -18577,7 +18655,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.572 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name ""
 					(effects
@@ -29088,7 +29166,7 @@
 			)
 		)
 		(property "Description" "IC LED DRV RGLTR PWM 1.8A SC70-5"
-			(at 8.636 -9.398 0)
+			(at 5.715 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29099,7 +29177,7 @@
 		(symbol "TPS61169DCKR_0_1"
 			(rectangle
 				(start 0 0)
-				(end 10.16 -7.62)
+				(end 10.16 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -29156,7 +29234,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -6.35 0)
+				(at -2.54 -16.51 0)
 				(length 2.54)
 				(name "CTRL"
 					(effects
@@ -29165,7 +29243,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -29192,7 +29270,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -3.81 180)
+				(at 12.7 -8.89 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -29210,7 +29288,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -6.35 180)
+				(at 12.7 -16.51 180)
 				(length 2.54)
 				(name "FB"
 					(effects

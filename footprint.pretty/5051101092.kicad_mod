@@ -397,7 +397,6 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/5051101092.stp"
-		(opacity 0.4000)
 		(offset
 			(xyz 0 -1.7 0)
 		)
