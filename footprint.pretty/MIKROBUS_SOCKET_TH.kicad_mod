@@ -987,7 +987,6 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/Mikroe-Click-Connector.STEP"
-		(opacity 0.6100)
 		(offset
 			(xyz 1.285 0 0)
 		)
