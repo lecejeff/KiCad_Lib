@@ -2518,8 +2518,8 @@
             }
 		},
 		{
-			"name": "Miscellaneous",
-			"table": "Miscellaneous",
+			"name": "Amplifier",
+			"table": "Amplifier",
 			"key": "Part ID",
 			"symbols": "Symbols",
 			"footprints": "Footprints",
@@ -2541,40 +2541,80 @@
 					"inherit_properties": true
 				},
 				{
-					"column": "Circuit",
-					"name": "Circuit",
+					"column": "Interface",
+					"name": "Interface",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
 					"inherit_properties": true
 				},
 				{
-					"column": "Current Rating",
-					"name": "Current Rating",
+					"column": "Circuits",
+					"name": "Circuits",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
 					"inherit_properties": true
 				},
 				{
-					"column": "Voltage Rating",
-					"name": "Voltage Rating",
+					"column": "Slew Rate",
+					"name": "Slew Rate",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
 					"inherit_properties": true
 				},
 				{
-					"column": "IP Rating",
-					"name": "IP Rating",
+					"column": "GBW",
+					"name": "GBW",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,
 					"inherit_properties": true
 				},
 				{
-					"column": "Mechanical Life",
-					"name": "Mechanical Life",
+					"column": "Offset Voltage",
+					"name": "Offset Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Bias Current",
+					"name": "Bias Current",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "RRIO",
+					"name": "RRIO",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Common-mode voltage",
+					"name": "Common-mode voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Supply Voltage",
+					"name": "Supply Voltage",
+					"visible_on_add": false,
+					"visible_in_chooser": true,
+					"show_name": true,
+					"inherit_properties": true
+				},
+				{
+					"column": "Package",
+					"name": "Package",
 					"visible_on_add": false,
 					"visible_in_chooser": true,
 					"show_name": true,

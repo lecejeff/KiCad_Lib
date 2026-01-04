@@ -566,11 +566,10 @@
 		(remove_unused_layers no)
 		(uuid "07836d59-41b3-4cf0-acfc-bebcebe1bac0")
 	)
-	(pad "49" smd roundrect
+	(pad "49" smd rect
 		(at 0 0)
 		(size 5.7 5.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin_ratio -0.05)
 		(uuid "7ad1667a-24ee-459a-b468-68700e27d3c1")

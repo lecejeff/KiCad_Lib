@@ -1,0 +1,143 @@
+(footprint "RES_SENSE_1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "R**"
+		(at 0 -1.825 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a8bdcc7c-ecb8-4dde-842a-abfb79111f0f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RES_SENSE_1206"
+		(at -1.025 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "08c62550-f969-43fc-ae35-13b5569af0d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.73 -0.69 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a63da421-9eba-4377-bc7b-97cd639879e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.73 -0.69 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "033f6b14-dbe0-43ab-8794-edada590abd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.1 -1.45)
+		(end 2.1 1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d58e67ce-dbd3-433e-b5ad-16a69810bcda")
+	)
+	(fp_rect
+		(start -2.1 -1.45)
+		(end 2.1 1.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "65f8c4a1-bbd8-4183-84f2-469a44b413d9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.025 4.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "949bd2db-1276-42f5-b252-eb4ae1c896ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.025 -0.7)
+		(size 1.75 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
+	)
+	(pad "2" smd roundrect
+		(at -1.025 0.7)
+		(size 1.75 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "84f34e21-4894-49d4-b0ad-72864ea3551e")
+	)
+	(pad "3" smd roundrect
+		(at 1.025 0.7)
+		(size 1.75 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "76d4e1ad-c5e9-4c38-8628-b86c8ee7c946")
+	)
+	(pad "4" smd roundrect
+		(at 1.025 -0.7)
+		(size 1.75 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "2a38b126-d10a-4420-b64f-6e6562fcceec")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/LVK12R010DER.stp"
+		(offset
+			(xyz 0 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

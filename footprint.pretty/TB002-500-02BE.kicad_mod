@@ -1,0 +1,155 @@
+(footprint "TB002-500-02BE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ac046421-1efc-49a2-8a8c-68e7973c428e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TB002-500-02BE"
+		(at 0 4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f88b230-9e29-4e0b-a3ea-642df648ff76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90a1f938-6131-4ccb-9da4-a6062cd12b03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e43ba216-b767-4458-ae5d-49b494ed7867")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -3)
+		(end 5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9eca00a7-30cc-4e48-b91a-bd9ce7875047")
+	)
+	(fp_rect
+		(start -5 -3.9)
+		(end 5 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "07ad1b34-d3d7-4880-b535-e9fae43ae89b")
+	)
+	(fp_rect
+		(start -5 -3.9)
+		(end 5 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "6368b519-91e0-458f-b6f6-436c1501d227")
+	)
+	(fp_rect
+		(start -5 -3.9)
+		(end 5 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e3adc214-c3d4-46fa-83ed-31cce00366a6")
+	)
+	(fp_text user "Wires this side"
+		(at -2.9 -3.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1dbe6119-44e0-4d3c-b3d6-8d229b49d46e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "985ca71e-8599-4ade-8573-e8a4edb5ce5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.3)
+		(uuid "2406ef46-05a5-40be-bc14-0c41af3c4fe6")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.3)
+		(uuid "0f02581e-a808-45c6-9d71-8de938714035")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/Same_Sky_TB002-500-02BE.step"
+		(offset
+			(xyz -5 -4.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
