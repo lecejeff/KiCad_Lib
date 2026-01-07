@@ -1,0 +1,153 @@
+(footprint "CAP_NONPOL_1210"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CAP NON POL SMT 1210 IPC nominal")
+	(property "Reference" "C**"
+		(at 0 -1.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ecb1770-bfec-4002-9dda-e7844b1d823c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CAP_NONPOL_1210"
+		(at 0.15 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e6de866e-4c91-4e6b-91dd-93eda05cccae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.705 0.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fe6ec24-d912-4f95-b6f6-884714d25937")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CAP NON POL SMT 1210 IPC nominal"
+		(at -0.705 0.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83d6c5a8-7d69-4571-8fd1-07ce0bf7e87c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -1.5)
+		(end 2.3 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "67e5ebd6-5d22-4c58-8a2d-c53bb870b202")
+	)
+	(fp_line
+		(start -2.3 1.5)
+		(end -2.3 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cc06284-3e8e-41ea-81ca-41eff17a7640")
+	)
+	(fp_line
+		(start 2.3 -1.5)
+		(end 2.3 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3f2248a-1477-4863-8605-ae7ab59308dd")
+	)
+	(fp_line
+		(start 2.3 1.5)
+		(end -2.3 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28a51320-218d-483a-9c2e-bf47a74dd89f")
+	)
+	(fp_rect
+		(start -2.3 -1.5)
+		(end 2.3 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1a7d0f25-623b-489d-9462-52fef2b9e6a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.15 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "949bd2db-1276-42f5-b252-eb4ae1c896ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.6 0.005)
+		(size 1.1 2.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "99b33df1-e2e2-4b58-9a3c-bfc016ba4a5f")
+	)
+	(pad "2" smd roundrect
+		(at 1.6 0)
+		(size 1.1 2.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "d3cee78f-252d-4339-88a1-b0b47290a43e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/1210_CAP.stp"
+		(offset
+			(xyz 0 0 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)
