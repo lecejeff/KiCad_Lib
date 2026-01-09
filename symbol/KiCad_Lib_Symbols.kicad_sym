@@ -28804,7 +28804,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 6.35 1.27 0)
+			(at 8.89 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28849,7 +28849,7 @@
 		(symbol "RVT70HSLFWCA0_TOUCH_CONN_1_1"
 			(rectangle
 				(start 0 0)
-				(end 12.7 -30.48)
+				(end 17.78 -20.32)
 				(stroke
 					(width 0)
 					(type solid)
@@ -28895,35 +28895,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -8.89 0)
-				(length 2.54)
-				(name "USB_VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
+			(pin input line
 				(at -2.54 -11.43 0)
 				(length 2.54)
-				(name "USB_GND"
+				(name "I2C_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -28931,17 +28913,35 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -16.51 0)
+			(pin bidirectional line
+				(at -2.54 -13.97 0)
 				(length 2.54)
-				(name "I2C_VDD"
+				(name "I2C_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -2.54 -16.51 0)
+				(length 2.54)
+				(name "I2C_~{INT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -28967,53 +28967,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -2.54 -21.59 0)
+			(pin power_in line
+				(at 20.32 -1.27 180)
 				(length 2.54)
-				(name "I2C_~{INT}"
+				(name "USB_VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -24.13 0)
-				(length 2.54)
-				(name "I2C_SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -26.67 0)
-				(length 2.54)
-				(name "I2C_SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -29022,7 +28986,43 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -29.21 0)
+				(at 20.32 -11.43 180)
+				(length 2.54)
+				(name "I2C_VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -16.51 180)
+				(length 2.54)
+				(name "USB_GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -19.05 180)
 				(length 2.54)
 				(name "I2C_GND"
 					(effects

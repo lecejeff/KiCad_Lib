@@ -13,8 +13,8 @@
 	)
 	(rect
 		(name "")
-		(start 109.989 33.5022)
-		(end 2 2.0002)
+		(start 121.9892 33.5072)
+		(end 2.0022 2.0002)
 		(comment "rect around the title block")
 	)
 	(rect
@@ -93,19 +93,19 @@
 	)
 	(tbtext "Date: ${ISSUE_DATE}"
 		(name "")
-		(pos 109 3.9002)
+		(pos 121.5002 3.9002)
 		(font
 			(size 1.27 1.27) bold italic)
 	)
 	(line
 		(name "")
-		(start 110 5.5002)
-		(end 2 5.5002)
+		(start 122.0022 5.5072)
+		(end 2.0002 5.5002)
 	)
 	(line
 		(name "")
-		(start 110 9.0002)
-		(end 2 9.0002)
+		(start 122.0022 9.0072)
+		(end 2.0002 9.0002)
 	)
 	(tbtext "Current Revision: ${REVISION}"
 		(name "")
@@ -129,18 +129,18 @@
 	)
 	(line
 		(name "")
-		(start 110 12.5)
-		(end 25.989 12.5)
+		(start 122.0022 12.5072)
+		(end 25.9892 12.5002)
 	)
 	(tbtext "Project: ${TITLE}"
 		(name "")
-		(pos 109 10.7)
+		(pos 121.5002 10.7002)
 		(font
 			(size 1.27 1.27) bold italic)
 	)
 	(tbtext "Sheet Title: ${FILENAME}"
 		(name "")
-		(pos 109 7.3)
+		(pos 121.5002 7.3002)
 		(font
 			(size 1.27 1.27) bold italic)
 	)
@@ -237,15 +237,15 @@
 		(start 29.989 16.0022)
 		(end 1.989 16.0022)
 	)
-	(tbtext "BOM: ${FILENAME}"
+	(tbtext "BOM: ${COMMENT9}\n"
 		(name "")
-		(pos 69.489 3.5022)
+		(pos 69.489 3.502)
 		(font
 			(size 1.27 1.27) bold italic)
 	)
 	(tbtext "Designed by:	${COMMENT1}\n\n				${COMMENT2}\n\n				${COMMENT3}\n\n				${COMMENT4}\n\n				${COMMENT5}"
 		(name "")
-		(pos 108.989 23.0022)
+		(pos 121.4892 23.0022)
 		(font
 			(size 1.27 1.27) bold italic)
 	)
