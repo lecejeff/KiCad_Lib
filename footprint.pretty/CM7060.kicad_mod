@@ -1,0 +1,148 @@
+(footprint "CM7060"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CM7060 series common mode choke")
+	(property "Reference" "REF**"
+		(at 0 -3.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7e751816-cd71-4ab0-b04f-a7c53d51f8f4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CM7060"
+		(at 0 4.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "115f48a6-c721-4cbe-9540-2228a1dc198b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.35 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82d60221-b77d-4859-86d7-08896792d5bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.35 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6763c856-511a-45af-9925-c73490170c57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.85 -3.2)
+		(end 3.85 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f7f8684f-b705-42ca-b12c-092440fc8d4e")
+	)
+	(fp_circle
+		(center -4.088197 -1.5)
+		(end -3.988197 -1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b488c4eb-3f12-4bed-abb7-4b3d19004cf6")
+	)
+	(fp_rect
+		(start -3.85 -3.2)
+		(end 3.85 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "195336af-0599-4676-a33d-778b47f6fd97")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be3cccf1-bad1-4d3e-a7d8-4e60ca8ba4c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.55 -1.5)
+		(size 2.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.1)
+		(uuid "89dcf287-6364-484c-a2e3-0d6ad3f0e4a0")
+	)
+	(pad "2" smd roundrect
+		(at -2.55 1.5)
+		(size 2.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.1)
+		(uuid "1736935a-0e1b-47b6-97d6-1e936136ef67")
+	)
+	(pad "3" smd roundrect
+		(at 2.55 1.5)
+		(size 2.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.1)
+		(uuid "5ed4d08c-ce36-4c33-89d8-b3333f3925df")
+	)
+	(pad "4" smd roundrect
+		(at 2.55 -1.5)
+		(size 2.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.1)
+		(solder_paste_margin_ratio 0.05)
+		(uuid "09ca7ad7-31ec-42fd-bff0-4992740a3e6b")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/CM7060P701R-10.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
