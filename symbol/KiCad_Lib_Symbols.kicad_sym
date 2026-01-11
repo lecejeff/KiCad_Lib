@@ -30753,6 +30753,486 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SMT_TP_100_MILS"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 0.635 1.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0.635 -1.016 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMT_TP_100_MILS_0_1"
+			(circle
+				(center 0.635 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMT_TP_100_MILS_1_1"
+			(text "100\nmil"
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+						(color 0 0 255 1)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 0 0)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMT_TP_28_MILS"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 0.635 1.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0.635 -1.016 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMT_TP_28_MILS_0_1"
+			(circle
+				(center 0.635 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMT_TP_28_MILS_1_1"
+			(text "28\nmil"
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+						(color 0 0 255 1)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 0 0)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMT_TP_35_MILS"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 0.635 1.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0.635 -1.016 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMT_TP_35_MILS_0_1"
+			(circle
+				(center 0.635 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMT_TP_35_MILS_1_1"
+			(text "35\nmil"
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+						(color 0 0 255 1)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 0 0)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMT_TP_50_MILS"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 0.635 1.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0.635 -1.016 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMT_TP_50_MILS_0_1"
+			(circle
+				(center 0.635 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMT_TP_50_MILS_1_1"
+			(text "50\nmil"
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+						(color 0 0 255 1)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 0 0)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMT_TP_75_MILS"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 0.635 1.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0.635 -1.016 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMT_TP_75_MILS_0_1"
+			(circle
+				(center 0.635 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMT_TP_75_MILS_1_1"
+			(text "75\nmil"
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+						(color 0 0 255 1)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 0 0)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SN65DSI84ZXHR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34391,14 +34871,14 @@
 			(pin input line
 				(at -2.54 -1.27 0)
 				(length 2.54)
-				(name "WDI"
+				(name "~{EN}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -34409,14 +34889,14 @@
 			(pin input line
 				(at -2.54 -3.81 0)
 				(length 2.54)
-				(name "~{EN}"
+				(name "WDI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1,0 +1,99 @@
+(footprint "SMT_TP_100_MILS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "25308e40-b7c1-43a7-82fc-13c28bb1c08b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMT_TP_100_MILS"
+		(at 0 2.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c6811da1-2a17-4f71-9039-bd465d0b2548")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce4eb943-7397-44a2-99e9-44af3bfe4dc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61a395f8-255c-4fb8-b343-88b561fb849d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 1.35 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5b857d2d-6168-403c-a473-a22b61397fef")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.3 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5bb0b0bd-09ca-463a-a2b2-815b7a1384bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f3d35843-159f-478b-98e9-51bc3ab534a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2.54 2.54)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.2)
+		(uuid "8cb95bf5-4878-4cb7-b9f6-e818447adaa3")
+	)
+	(embedded_fonts no)
+)
