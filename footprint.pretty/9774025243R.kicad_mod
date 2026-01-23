@@ -1,0 +1,91 @@
+(footprint "9774025243R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "M2x0.4 PCB spacer footprint")
+	(property "Reference" "MTG**"
+		(at 0 -3.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a2a7f327-355a-42f2-b055-ca868e6f27fa")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a88e861f-980f-4181-ab71-408288e507ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1ac35c5-b127-40ca-801f-39a27b0b8753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e7b88ca-e22b-44ff-a0bb-81ba1fc6089f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0a60fa0-be6a-4418-9183-59cf4b219f2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.3 5.3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.3)
+		(uuid "1fdf292e-ded6-4a9a-b069-850bfb4319bf")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/9774025243R+(rev1).stp"
+		(offset
+			(xyz 0 0 -1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

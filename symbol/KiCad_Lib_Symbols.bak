@@ -4228,6 +4228,84 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "FIDUCIAL"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FID"
+			(at 0.254 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FIDUCIAL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FIDUCIAL_1_1"
+			(circle
+				(center 0 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 204 102 0 1)
+				)
+				(fill
+					(type color)
+					(color 204 102 0 1)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 255 1)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "FIDUCIAL_1MM"
 		(pin_names
 			(hide yes)
@@ -34871,14 +34949,14 @@
 			(pin input line
 				(at -2.54 -1.27 0)
 				(length 2.54)
-				(name "WDI"
+				(name "~{EN}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -34889,14 +34967,14 @@
 			(pin input line
 				(at -2.54 -3.81 0)
 				(length 2.54)
-				(name "~{EN}"
+				(name "WDI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
