@@ -112,7 +112,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "Margin")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "5f23fbcc-c223-4510-8178-883e13c5563f")
 		(hatch edge 0.5)
 		(connect_pads
@@ -124,7 +129,7 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour allowed)
+			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
