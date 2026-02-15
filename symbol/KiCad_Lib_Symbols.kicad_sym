@@ -13584,7 +13584,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 11.43 -101.6 90)
+				(at 5.08 -101.6 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -13595,6 +13595,60 @@
 					)
 				)
 				(number "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -101.6 90)
+				(length 2.54)
+				(name "2230"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -101.6 90)
+				(length 2.54)
+				(name "2242"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -101.6 90)
+				(length 2.54)
+				(name "2260"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "78"
 					(effects
 						(font
 							(size 1.27 1.27)
