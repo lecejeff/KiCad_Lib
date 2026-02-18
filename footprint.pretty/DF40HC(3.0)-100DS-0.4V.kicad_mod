@@ -1027,12 +1027,12 @@
 		(uuid "1ed7dcbd-61f3-4876-8bef-a0e51215be7c")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/DF40C-100DS.stp"
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/DF40HC(3.0)-100DS-0.4V.stp"
 		(offset
-			(xyz 6.115 0 0)
+			(xyz 0.115 0 1.5)
 		)
 		(scale
-			(xyz 0.9 1 1)
+			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -90 -0 -90)
