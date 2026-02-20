@@ -72,7 +72,6 @@
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.3)
 		(uuid "e856ccc5-1d82-4458-8349-41a320c978a7")
 	)
 	(embedded_fonts no)

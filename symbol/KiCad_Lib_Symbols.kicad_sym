@@ -4276,6 +4276,15 @@
 				(hide yes)
 			)
 		)
+		(property "Component Class" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "FIDUCIAL_1_1"
 			(circle
 				(center 0 0)
@@ -13649,6 +13658,25 @@
 					)
 				)
 				(number "78"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 20.32 -101.6 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
 					(effects
 						(font
 							(size 1.27 1.27)

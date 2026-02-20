@@ -56,61 +56,6 @@
 		)
 	)
 	(attr exclude_from_pos_files)
-	(fp_rect
-		(start -90.8 -41.8)
-		(end -82.8 -33.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "8a686667-3301-48d1-bee8-e5b7d2b41407")
-	)
-	(fp_rect
-		(start -90.8 33.8)
-		(end -82.8 41.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "1e3807b5-2948-4a6b-b24c-80f42833aedc")
-	)
-	(fp_rect
-		(start -82.8 -50.3)
-		(end 82.8 50.3)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "5e477b35-7693-4a64-ae5f-ff09d18834cc")
-	)
-	(fp_rect
-		(start 82.8 -41.8)
-		(end 90.8 -33.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "40b392de-c7ff-4432-adf2-2ae2070c2b28")
-	)
-	(fp_rect
-		(start 82.8 33.8)
-		(end 90.8 41.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "8ee5f937-e480-409b-a53e-4b876717efd9")
-	)
 	(fp_circle
 		(center -86.95 -37.82)
 		(end -85.2 -37.82)
@@ -354,6 +299,61 @@
 		)
 		(layer "Margin")
 		(uuid "e943df41-a908-4310-8698-e4e63e89c093")
+	)
+	(fp_rect
+		(start -90.8 -41.8)
+		(end -82.8 -33.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8a686667-3301-48d1-bee8-e5b7d2b41407")
+	)
+	(fp_rect
+		(start -90.8 33.8)
+		(end -82.8 41.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1e3807b5-2948-4a6b-b24c-80f42833aedc")
+	)
+	(fp_rect
+		(start -82.8 -50.3)
+		(end 82.8 50.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5e477b35-7693-4a64-ae5f-ff09d18834cc")
+	)
+	(fp_rect
+		(start 82.8 -41.8)
+		(end 90.8 -33.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "40b392de-c7ff-4432-adf2-2ae2070c2b28")
+	)
+	(fp_rect
+		(start 82.8 33.8)
+		(end 90.8 41.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8ee5f937-e480-409b-a53e-4b876717efd9")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/3D_RVT70HSLFWCA0_Rev.1.1.stp"
