@@ -67,7 +67,7 @@
 	)
 	(fp_line
 		(start -1.55 0.75)
-		(end -1.45 0.75)
+		(end -1.475 0.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76,7 +76,7 @@
 		(uuid "ef9e2aa6-53e0-4be1-95c7-cbc46e448693")
 	)
 	(fp_line
-		(start -0.5 -0.75)
+		(start -0.525 -0.75)
 		(end -1.55 -0.75)
 		(stroke
 			(width 0.1)
@@ -86,7 +86,7 @@
 		(uuid "81aeb808-8558-4b50-9f3a-557e2bd8dc1a")
 	)
 	(fp_line
-		(start 0.5 -0.75)
+		(start 0.525 -0.75)
 		(end 1.55 -0.75)
 		(stroke
 			(width 0.1)
@@ -107,7 +107,7 @@
 	)
 	(fp_line
 		(start 1.55 0.75)
-		(end 1.45 0.75)
+		(end 1.475 0.75)
 		(stroke
 			(width 0.1)
 			(type default)

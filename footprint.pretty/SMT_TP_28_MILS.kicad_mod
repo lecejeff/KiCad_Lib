@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.85 0)
+		(at 0 -0.875 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "25308e40-b7c1-43a7-82fc-13c28bb1c08b")
@@ -56,7 +56,7 @@
 	(attr smd)
 	(fp_circle
 		(center 0 0)
-		(end 0.35 0.35)
+		(end 0.375 0.375)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -67,7 +67,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 0.35 0.35)
+		(end 0.375 0.375)
 		(stroke
 			(width 0.05)
 			(type default)
