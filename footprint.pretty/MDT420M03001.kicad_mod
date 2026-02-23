@@ -65,36 +65,6 @@
 		(uuid "b4c60bb5-e945-4ccb-81b3-1f6a42a599cf")
 	)
 	(fp_line
-		(start -11.2 28.25)
-		(end -3.1 28.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e1733a06-e223-4c9f-8971-598aba145702")
-	)
-	(fp_line
-		(start -11.2 40.25)
-		(end -3.1 40.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9348830f-7d30-4bdc-a318-9e691add6c04")
-	)
-	(fp_line
-		(start -11.2 58.25)
-		(end -3.1 58.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "5eafc919-8bf6-4d38-8efe-ce00e07dcf23")
-	)
-	(fp_line
 		(start -10.800001 -6.3)
 		(end 10.8 -6.299998)
 		(stroke
@@ -173,36 +143,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c7d64eb0-7c73-4358-b853-ae4e1e54052b")
-	)
-	(fp_line
-		(start 11.2 28.25)
-		(end 3.1 28.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3e922df1-9eca-422c-a978-d7886fefec04")
-	)
-	(fp_line
-		(start 11.2 40.25)
-		(end 3.1 40.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "fcc6932b-6c8f-4e64-a7b2-e8bf860aab80")
-	)
-	(fp_line
-		(start 11.2 58.25)
-		(end 3.1 58.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "22530ac5-ee69-4f75-b84b-00c4879921e6")
 	)
 	(fp_arc
 		(start -11.2 -5.9)
@@ -1101,7 +1041,7 @@
 		(at 0 28.25)
 		(size 5.3 5.3)
 		(drill 3)
-		(layers "*.Cu" "F.Mask" "F.Paste")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.254)
 		(uuid "e4d9f2a5-f558-4691-ab62-e2e94be17b11")
@@ -1110,7 +1050,7 @@
 		(at 0 40.25)
 		(size 5.3 5.3)
 		(drill 3)
-		(layers "*.Cu" "F.Mask" "F.Paste")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.254)
 		(uuid "e1404647-616a-4923-8e34-7a03d471a1ee")
@@ -1119,7 +1059,7 @@
 		(at 0 58.25)
 		(size 5.3 5.3)
 		(drill 3)
-		(layers "*.Cu" "F.Mask" "F.Paste")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.254)
 		(uuid "2ecb501e-60ff-4c7f-9030-afc27bcd710a")

@@ -183,7 +183,7 @@
 		(drill oval 3.2 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.25)
+		(solder_mask_margin 0.5)
 		(uuid "0901df4c-8ffc-4dcf-aa6d-2e499af985d4")
 	)
 	(pad "2" thru_hole oval
@@ -192,7 +192,7 @@
 		(drill oval 2.8 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.25)
+		(solder_mask_margin 0.5)
 		(uuid "f31401e8-d100-41eb-ad0e-c83e7be31e39")
 	)
 	(pad "3" thru_hole oval
@@ -201,7 +201,7 @@
 		(drill oval 0.7 2.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.25)
+		(solder_mask_margin 0.5)
 		(uuid "f9441511-1c63-4bfb-832c-2f6ceef4c940")
 	)
 	(embedded_fonts no)

@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "M2.5 PCB spacer footprint")
 	(property "Reference" "MTG**"
-		(at 0 -3.75 0)
+		(at 0 -3.825 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a2a7f327-355a-42f2-b055-ca868e6f27fa")
@@ -71,7 +71,7 @@
 		(at 0 0)
 		(size 5.84 5.84)
 		(drill 3.8)
-		(layers "*.Cu" "F.Mask" "F.Paste")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.254)
 		(uuid "1fdf292e-ded6-4a9a-b069-850bfb4319bf")
