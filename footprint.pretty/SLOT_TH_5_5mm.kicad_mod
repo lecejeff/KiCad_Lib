@@ -104,7 +104,7 @@
 		(size 10.5 5)
 		(drill oval 10.5 5)
 		(layers "*.Cu" "*.Mask")
-		(solder_mask_margin 1)
+		(solder_mask_margin 0.518)
 		(uuid "dc63af7b-ac4c-4f76-8590-b464b6ea1ec5")
 	)
 	(embedded_fonts no)

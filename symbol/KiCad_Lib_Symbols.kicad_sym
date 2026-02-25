@@ -21463,19 +21463,6 @@
 			)
 			(polyline
 				(pts
-					(xy 3.556 -3.81) (xy 3.556 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 255 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 10.16 -3.81) (xy 10.16 -3.81)
 				)
 				(stroke

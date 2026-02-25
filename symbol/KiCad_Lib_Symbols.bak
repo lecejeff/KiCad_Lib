@@ -4276,6 +4276,15 @@
 				(hide yes)
 			)
 		)
+		(property "Component Class" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "FIDUCIAL_1_1"
 			(circle
 				(center 0 0)
