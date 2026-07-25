@@ -1,0 +1,220 @@
+(footprint "AOTA-B201610S3R3-101-"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "FIXED IND 3.3UH 2.1A 140 MOHM")
+	(property "Reference" "L**"
+		(at 0 -1.39 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ad52871-36e5-491b-98a8-1d6f919eae6a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AOTA-B201610S3R3-101-"
+		(at 0 1.84 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45941e7e-ccc6-4f26-bed7-79abd613e708")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -4.93 -0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "589d0bf9-bfc9-4129-836c-b39226809c42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FIXED IND 3.3UH 2.1A 140 MOHM"
+		(at -4.93 -0.005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7a60d48-2e44-47e2-b832-8a1dee2a537d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -1)
+		(end -1 -0.92)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dc7c57fd-59e8-43cc-86b5-02dd1f44b47e")
+	)
+	(fp_line
+		(start -1 1.002681)
+		(end -1 0.922681)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc4c0086-9be8-4499-bcab-8f4b0f6bf52c")
+	)
+	(fp_line
+		(start -1 1.002681)
+		(end 1 1.002681)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd949b3a-2826-4238-9cc8-1b0057edb2b2")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e46cccb-f05c-4bfc-b830-6b0b944c0b9c")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 -0.92)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f02b5ee-ca89-4872-a9aa-9d7b132a0571")
+	)
+	(fp_line
+		(start 1 1.002681)
+		(end 1 0.922681)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59c0444e-67e5-4fce-9580-388dfc8ff096")
+	)
+	(fp_circle
+		(center 1.21 -0.99)
+		(end 1.26 -0.94)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "05e2949a-1343-49be-b58c-b08030fec31d")
+	)
+	(fp_rect
+		(start -1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d4867f9f-436e-4a1f-9dd7-1a9d22fa0bbb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "227bb744-79e4-4dea-b554-6aed1ed9fb3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.9 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "23a04167-cfee-4719-b201-4a133133fd15")
+	)
+	(pad "2" smd roundrect
+		(at -0.9 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 45)
+		(uuid "55216b26-20f0-4bbf-9d33-da7cf83948c6")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "0d61190a-4645-43df-be56-ecc1adca07a6")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0.35 -0.8) (xy 0.35 0.8) (xy -0.35 0.8) (xy -0.35 -0.8)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/AOTA-B201610S3R3-101-T.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
