@@ -1,0 +1,247 @@
+(footprint "EVQQ2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SWITCH TACTILE SPST-NO 0.02A 15V")
+	(property "Reference" "SW**"
+		(at 0.025 -3.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9d4b5047-4e47-49e9-ae2f-cc977f99cc5f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EVQQ2"
+		(at 0 10.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "37304492-8d3f-43dd-a723-3bf52d8bb4a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbed2a3a-065c-4e8d-98ea-12c3edae2653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SWITCH TACTILE SPST-NO 0.02A 15V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "774d0d8a-5ad0-47ee-8455-3da37002ee8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.3 -3.251237)
+		(end 3.299671 -3.251237)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b87caf9-549d-4fc6-8344-58ce8e21481e")
+	)
+	(fp_line
+		(start -3.3 -2.75)
+		(end -3.3 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a649b89d-4bcd-4716-ad9c-08a2357c1dbe")
+	)
+	(fp_line
+		(start -3.3 2.75)
+		(end -3.3 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4203fac5-7e1d-4053-bc21-cb78a1fa46aa")
+	)
+	(fp_line
+		(start -1.25 -2)
+		(end 1.25 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ba553f6-c89f-417d-b3e6-e3783ad031e6")
+	)
+	(fp_line
+		(start -1.25 2)
+		(end 1.25 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "146c3009-853d-43a1-94aa-13662bcf173b")
+	)
+	(fp_line
+		(start 0 -2)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27722743-c9b0-490a-bcd4-79d2e4864e2c")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0.725 0.225)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "499d77b4-372f-4e1a-b8c2-24200be1dd76")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f3bdb6b-e04c-4bd1-9895-8022aab5095c")
+	)
+	(fp_line
+		(start 3.3 -2.75)
+		(end 3.3 -3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34b17b19-98d4-4596-9c83-dfb57bcf6a22")
+	)
+	(fp_line
+		(start 3.3 2.75)
+		(end 3.3 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8e4f32e-42b4-40ae-b919-aa214a9e28cd")
+	)
+	(fp_line
+		(start 3.3 3.25)
+		(end -3.293814 3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f568afab-36f3-463d-a8b4-5e4ed4c44b00")
+	)
+	(fp_circle
+		(center 0 0.35)
+		(end 0.1 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c382eada-e161-41fc-b446-57d056b798ce")
+	)
+	(fp_rect
+		(start -5.075 -3.25)
+		(end 5.05 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "179acd57-1d0b-499c-9871-0a2b04b583ec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "816f6d30-0cec-477b-943b-4e4f687cbcc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.3 -2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.1)
+		(uuid "0f3335d3-d1bc-4af6-a40f-b486bbc8ae63")
+	)
+	(pad "1" smd roundrect
+		(at 3.3 -2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.1)
+		(uuid "6a4c86af-3ff8-458a-a882-ad17215671da")
+	)
+	(pad "2" smd roundrect
+		(at -3.3 2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.1)
+		(uuid "ee652743-8291-4d86-905c-7f890e63baab")
+	)
+	(pad "2" smd roundrect
+		(at 3.3 2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.1)
+		(uuid "5c6b0608-cb3c-4901-9b89-84d851fcce6c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/evqq2-bfkpuy-03w_.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
