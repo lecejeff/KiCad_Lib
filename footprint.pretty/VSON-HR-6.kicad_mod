@@ -1,0 +1,153 @@
+(footprint "VSON-HR-6"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "VSON-HR-6")
+	(property "Reference" "U**"
+		(at 0 -1.275 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9511bacd-0446-4007-8e6d-2195676538d3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VSON-HR-6"
+		(at 0 1.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72b0b264-0845-4919-894a-f3a452369e0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4117ea43-75d1-4640-a608-8c82d9eec229")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "VSON-HR-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a1170ac-ba4b-4227-b8f4-c691bcb1dac3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.1 -0.9)
+		(end 1.1 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "859eebf2-8b67-4ffd-9969-84ebbb8412e9")
+	)
+	(fp_rect
+		(start -1.1 -0.9)
+		(end 1.1 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6966e824-368a-4fc4-ac35-737daa1e5662")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.375 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75c70028-f7df-4d41-a116-7ee5bc2af768")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.65 -0.5)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(uuid "ebe5d3e8-bc30-4fb5-93ce-f54ae11479f6")
+	)
+	(pad "2" smd roundrect
+		(at -0.65 0)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(uuid "a35a35af-9cc3-4ed4-8151-00c29dfb27d7")
+	)
+	(pad "3" smd roundrect
+		(at -0.65 0.5)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(uuid "70d99c7d-3f46-4afa-8523-b04bfa030866")
+	)
+	(pad "4" smd roundrect
+		(at 0.45 0.5)
+		(size 1 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(uuid "570a3a4f-b121-47e7-b978-f692ca8d8e74")
+	)
+	(pad "5" smd roundrect
+		(at 0.45 0)
+		(size 1 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(uuid "170e00c1-e991-4515-a10c-8f80c61e457d")
+	)
+	(pad "6" smd roundrect
+		(at 0.45 -0.5)
+		(size 1 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(uuid "8e59dc3c-aca1-462a-ba34-5a0503757057")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/VSON-HR-6.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

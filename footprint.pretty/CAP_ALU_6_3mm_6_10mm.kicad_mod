@@ -1,0 +1,189 @@
+(footprint "CAP_ALU_6_3mm_6_10mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C**"
+		(at 0 -3.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e11889ac-6303-4be8-9ff3-356e794d8431")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CAP ALU 6.3mm Dia x 6.1mm height"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1e87ae1-5227-4013-9922-005838099774")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91191deb-7870-490d-b7ae-6b604ef7b27e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "053ebf8e-c773-43ed-ab63-67c079fcd533")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.420835 1.497216)
+		(end -3.420835 1.847216)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77fb2c04-8d59-4701-b067-794839418591")
+	)
+	(fp_line
+		(start -3.4 -1.5)
+		(end -3.4 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc2af9b6-dd0f-43df-8481-615df56f3caa")
+	)
+	(fp_line
+		(start -1.85 3.425)
+		(end 3.425 3.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "448a9255-7166-4019-844b-11eba7a4b628")
+	)
+	(fp_line
+		(start -1.845835 3.422216)
+		(end -3.420835 1.847216)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3114dc38-e830-4aba-8f79-9a6eebe7dfa6")
+	)
+	(fp_line
+		(start -1.825 -3.425)
+		(end -3.4 -1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06b8488e-d38b-43d6-88b6-2ec436d76d1e")
+	)
+	(fp_line
+		(start -1.825 -3.425)
+		(end 3.425 -3.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "465b358b-acba-46d0-9baf-a5f2c0806a57")
+	)
+	(fp_line
+		(start 3.425 -3.425)
+		(end 3.425 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf629f41-ffc1-4685-8dde-cf6da2f3f1f4")
+	)
+	(fp_line
+		(start 3.425 1.5)
+		(end 3.425 3.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6615cbe-41d8-4361-a3a7-7454a8f7d781")
+	)
+	(fp_rect
+		(start -4.5 -3.425)
+		(end 4.5 3.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "956197a6-2737-491f-8247-3fe367bc14e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8fd6e573-e0fa-43bd-bb6f-cd2164da1ce9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 0)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.25)
+		(uuid "674b824a-5b75-41d9-aaf9-729733c81e7c")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 0)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.25)
+		(uuid "94ca27a7-fc16-4f00-84b2-4418fa25e154")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jeanf/Desktop/Git/KiCad_Lib/3d model/surface mount/UUD0J221MCL1GS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

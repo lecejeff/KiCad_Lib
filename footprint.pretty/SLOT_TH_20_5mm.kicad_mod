@@ -1,25 +1,25 @@
 (footprint "SLOT_TH_20_5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "MTG**"
-		(at 0 -4.7 0)
+		(at 0 -4.425 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "2e1bf707-84e0-41fe-8fec-f2442826032a")
+		(uuid "50f7d627-d060-43c0-a729-3c42a2dac0e2")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 		)
 	)
 	(property "Value" "Untitled"
-		(at 0 1 0)
+		(at 0 4.975 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a77b8413-1878-4a1a-994b-90ad96743a00")
+		(uuid "28200317-8a17-4cbf-9601-6b342a728e60")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "534f2857-bfde-40a6-8b7e-eb44e070b8bc")
+		(uuid "b9053626-4363-4cb9-bc74-ae30b75d530c")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "44839b75-609e-46b1-ad35-c0944f4bdd27")
+		(uuid "b85d085b-15c8-430d-a624-793637f41674")
 		(effects
 			(font
 				(size 1 1)
@@ -54,44 +54,45 @@
 		)
 	)
 	(attr smd board_only)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -14 -4)
-		(end 14 4)
+		(start -11 -4)
+		(end 11 4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "0d301259-8e4b-4a5d-838e-6a1dd0bb80ad")
+		(uuid "f5f0f843-ae2c-47e6-bc8c-7b5da6c0b413")
 	)
 	(fp_rect
-		(start -14 -4)
-		(end 14 4)
+		(start -11 -4)
+		(end 11 4)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "1ef56034-0a4d-46d0-bf8b-3d869fe995b0")
+		(uuid "bbe1808f-b3bb-4de0-b038-0cd91b507d46")
 	)
 	(fp_rect
-		(start -14 -4)
-		(end 14 4)
+		(start -11 -4)
+		(end 11 4)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c613864d-9258-4923-8381-4e93beadff70")
+		(uuid "74bcbb7d-0fa1-42fc-9521-7c7219fddb0f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 6.475 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b7b4b71f-059f-4d90-8ba5-c0c7eb478a64")
+		(uuid "ce357926-3235-4baa-a964-cb0e5c2686fc")
 		(effects
 			(font
 				(size 1 1)
@@ -101,11 +102,11 @@
 	)
 	(pad "" np_thru_hole oval
 		(at 0 0)
-		(size 25 5)
-		(drill oval 25 5)
+		(size 20 5)
+		(drill oval 20 5)
 		(layers "*.Cu" "*.Mask")
 		(solder_mask_margin 0.518)
-		(uuid "dc63af7b-ac4c-4f76-8590-b464b6ea1ec5")
+		(uuid "a7f59c73-3bb8-4d89-9a73-1ac019064cae")
 	)
 	(embedded_fonts no)
 )
